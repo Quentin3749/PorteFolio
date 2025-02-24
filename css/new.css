@@ -1,0 +1,152 @@
+.nav-item.competence {
+  position: relative; /* Nécessaire pour que le sous-menu soit positionné correctement par rapport au parent */
+}
+
+.nav-item.competence .sub_menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Place le sous-menu en dessous de l'élément parent */
+  left: 0;
+  background-color: #343a40;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.nav-item.competence:hover .sub_menu,
+.nav-item.competence .sub_menu:hover {
+  display: block; /* Affiche le sous-menu lors du survol */
+}
+
+.sub_menu li {
+  padding: 5px;
+  color: white;
+}
+
+.sub_menu li:hover {
+  background-color: red; /* Couleur de survol */
+}
+
+  .small-image {
+    width: 10%;
+    height: auto;
+  }
+.projet {
+  color: #ffff;
+}
+ .row .documents1 {
+  display: flex;
+  align-items: center;
+ }
+
+ .service_section .heading_container h2 {
+  color: white;
+}
+
+.highlight-gold .nav-link {
+  color: gold !important;
+  font-weight: bold; /* Facultatif, pour le faire ressortir davantage */
+  text-shadow: 1px 1px 2px #000; /* Facultatif, pour ajouter de la profondeur */
+}
+
+.highlight-white .nav-link {
+  color: white !important;
+  font-weight: bold; /* Facultatif, pour le faire ressortir davantage */
+  text-shadow: 1px 1px 2px #000; /* Facultatif, pour ajouter de la profondeur */
+}
+
+
+
+  
+/* Ajuster les marges et les paddings */
+.header_section {
+  padding: 10px 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne sur petits écrans */
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row; /* Rendre le menu horizontal */
+  flex-wrap: wrap; /* Permet aux items de se regrouper sur plusieurs lignes */
+  justify-content: center; /* Centrer les items du menu */
+  gap: 10px; /* Espacement entre les items */
+}
+
+.nav-item {
+  white-space: nowrap; /* Empêcher les items de se couper */
+}
+
+.nav-item .sub_menu {
+  position: absolute; /* Les sous-menus restent "flottants" */
+  display: none;
+  background-color: #333;
+  color: #fff;
+  list-style: none;
+  padding: 5px 0;
+}
+
+.nav-item:hover .sub_menu {
+  display: block;
+}
+
+.sub_menu li {
+  padding: 5px 15px;
+}
+
+.bts-sio-section {
+  color: white;
+}
+
+.bts-sio-section h2 {
+  font-size: 2.2rem; /* Ajuste la taille du titre */
+  margin-bottom: 1rem;
+}
+
+.bts-sio-section p, 
+.bts-sio-section h4, 
+.bts-sio-section h6, 
+.bts-sio-section ul {
+  font-size: 1.2rem; /* Ajuste la taille globale du texte */
+  line-height: 1.6;
+}
+
+.bts-sio-section ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.bts-sio-section ul li:before {
+  content: "•"; /* Ajouter un point devant les éléments de liste */
+  color: white;
+  margin-right: 8px;
+}
+
+
+
+.encadre {
+  border: 2px solid #007bff; /* Couleur de bordure */
+  border-radius: 10px; /* Arrondir les angles */
+  padding: 20px; /* Espacement interne */
+ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Effet d'ombre */
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  text-decoration-color: white; /* Changez 'red' pour une autre couleur chaude, comme orange ou gold */
+  text-decoration-thickness: 2px; /* Contrôle l'épaisseur de la ligne */
+  transition: all 0.3s ease-in-out; /* Ajoute une transition pour un effet plus fluide */
+}
+
+
+.social-links a {
+  font-size: 30px; /* Exemple de taille en pixels */
+  margin-right: 10px;
+}

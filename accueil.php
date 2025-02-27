@@ -14,7 +14,7 @@ include_once "header.php";
                 <div class="col-md-6">
                     <div class="detail-box">
                         <h1>
-                            Présentationnn <br>
+                            Présentation <br>
                         </h1>
                         <p class="about_text"> Je m'appelle Quentin Etourmy, je suis un étudiant de 28 ans en deuxième année de BTS SIO (Services Informatiques aux Organisations), Option SLAM (Solutions Logicielles et Application Métier), à l'école My Digital School, située à Angers.
                         <br><br/>

@@ -1,3 +1,5 @@
+<?php $root = $_SERVER['DOCUMENT_ROOT']; ?>
+
 <head>
   <!-- Basic -->
   <meta charset="utf-8" />
@@ -45,13 +47,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
               <li class="nav-item active highlight-white">
-                <a class="nav-link" href="accueil.php">accuueil <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="./index.php">accueil <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item highlight-gold">
-                <a class="nav-link" href="tableau.php">tableaux de synthèse Bloc 1</a>
+                <a class="nav-link" href="./tableau.php">tableaux de synthèse Bloc 1</a>
               </li>
               <li class="nav-item competence highlight-white">
-                <a class="nav-link" href="competence.php">compétences</a>
+                <a class="nav-link" href="./competence.php">compétences</a>
                 <ul class="sub_menu">
                   <li>Gestion du patrimoine informatique</li>
                   <li>Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
@@ -64,20 +66,20 @@
                </ul>
               </li>
               <li class="nav-item highlight-white">
-                <a class="nav-link" href="entreprise.php">entreprise</a>
+                <a class="nav-link" href="./entreprise.php">entreprise</a>
               </li>
               <li class="nav-item highlight-white">
-                <a class="nav-link" href="projet.php">projets</a>
+                <a class="nav-link" href="./projet.php">projets</a>
               </li>
               <li class="nav-item highlight-white">
-                <a class="nav-link" href="mission.php">missions</a>
+                <a class="nav-link" href="./mission.php">missions</a>
               </li>
               <li class="nav-item highlight-white">
-                <a class="nav-link" href="veille.php ">veille</a>
+                <a class="nav-link" href="./veille.php ">veille</a>
               </li>
              
               <li class="nav-item highlight-white">
-                <a class="nav-link" href="contact.php">contact</a>
+                <a class="nav-link" href="./contact.php">contact</a>
               </li>
             </ul>
             

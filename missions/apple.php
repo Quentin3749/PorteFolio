@@ -34,7 +34,7 @@
 
 <body class="maquette-apple-page page-maquette-apple">
 <?php 
-include_once dirname(__DIR__) . "/header.php";
+include_once "../header.php";
 
 ?>
 

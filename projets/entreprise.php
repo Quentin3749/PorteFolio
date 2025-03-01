@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<body class="sub_page page-maquette">
+<body class="sub_page">
 
 <?php 
 include_once "header.php";

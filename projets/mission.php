@@ -51,18 +51,18 @@ include_once "header.php";
     <div class="container">
       <div class="heading_container heading_center">
         <h2 class="projet">
-          Projets 
+          Missions 
         </h2>
       </div>
     </div>
     <div class="container ">
       <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
+        <div class="col-md-6 col-lg-4 ">
+          <div class="box maquette ">
             <div class="img-box">
               <img src="images/logo.png" alt=" logo netflix" class="img-fluid w-100">
             </div>
-            <div class="detail-box">
+            <div class="detail-box boxi">
               <h4>
                Maquette Netflix
               </h4>
@@ -75,12 +75,12 @@ include_once "header.php";
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
+        <div class="col-md-6 col-lg-4 ">
+          <div class="box maquette ">
             <div class="img-box">
               <img src="images/logo_apple.png" alt="logo apple" class="img-fluid w-100">
             </div>
-            <div class="detail-box">
+            <div class="detail-box boxi">
               <h4>
                 Maquette Apple
               </h4>
@@ -93,12 +93,12 @@ include_once "header.php";
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 ">
-          <div class="box ">
+        <div class="col-md-6 col-lg-4  ">
+          <div class="box maquette">
             <div class="img-box">
               <img src="images/Spotify_logo.png" alt="logo spotify" class="img-fluid w-100">
             </div>
-            <div class="detail-box">
+            <div class="detail-box boxi">
               <h4>
                 Maquette Spotify
               </h4>
@@ -111,67 +111,8 @@ include_once "header.php";
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/immobilier.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                calculatrice immobilier
-              </h4>
-              <p>
-              projet à mettre sur GIThub
-              </p>
-              <a href="https://quentin3749.github.io/calculatrice-immobiliere/">
-                visuel
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/pourboire.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                calculatrice pourboire
-              </h4>
-              <p>
-                projet à mettre sur GIThub
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s6.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                bienvenue Formation
-              </h4>
-              <p>
-                à terminer
-              projet à mettre sur GIThub
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
-        </div>
+        
+      
       </div>
     </div>
   </section>

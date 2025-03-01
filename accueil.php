@@ -52,11 +52,11 @@ include_once "header.php";
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6 col-lg-4">
-                <div class="box">
+                <div class="box cv-box">
                     <div class="img-box">
                         <img src="images/CV1.png" alt="">
                     </div>
-                    <div class="detail-box">
+                    <div class="detail-box Curriculum">
                         <h4>
                             Curriculum Vitae
                         </h4>
@@ -68,11 +68,11 @@ include_once "header.php";
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
-                <div class="box">
+                <div class="box documentation-box">
                     <div class="img-box">
                         <img src="images/s2.png" alt="">
                     </div>
-                    <div class="detail-box">
+                    <div class="detail-box doc">
                         <h4>
                             Documentation BTS SIO
                         </h4>

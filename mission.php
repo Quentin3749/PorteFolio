@@ -57,36 +57,18 @@ include_once "header.php";
     </div>
     <div class="container ">
       <div class="row">
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
+        <div class="col-md-6 col-lg-4 ">
+          <div class="box maquette ">
             <div class="img-box">
               <img src="images/logo.png" alt=" logo netflix" class="img-fluid w-100">
             </div>
-            <div class="detail-box">
+            <div class="detail-box boxi">
               <h4>
                Maquette Netflix
               </h4>
               
-              <a href="https://quentin3749.github.io/projet-netflix/">
-                visuel
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/logo_apple.png" alt="logo apple" class="img-fluid w-100">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Maquette Apple
-              </h4>
-             
-              <a href="https://quentin3749.github.io/maquette-apple/">
-              visuel
+              <a href="http://localhost/portfolionew/missions/netflix.php">
+                en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
               </a>
@@ -94,17 +76,35 @@ include_once "header.php";
           </div>
         </div>
         <div class="col-md-6 col-lg-4 ">
-          <div class="box ">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/logo_apple.png" alt="logo apple" class="img-fluid w-100">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Maquette Apple
+              </h4>
+             
+              <a href="http://localhost/portfolionew/missions/apple.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4  ">
+          <div class="box maquette">
             <div class="img-box">
               <img src="images/Spotify_logo.png" alt="logo spotify" class="img-fluid w-100">
             </div>
-            <div class="detail-box">
+            <div class="detail-box boxi">
               <h4>
                 Maquette Spotify
               </h4>
               
-              <a href="https://quentin3749.github.io/maquette-spotify/">
-              visuel
+              <a href="http://localhost/portfolionew/missions/spotify.php">
+              en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
               </a>

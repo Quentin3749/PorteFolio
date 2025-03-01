@@ -50,36 +50,36 @@
             Links
           </h4>
           <div class="info_links">
-            <a class="" href="accueil.php">
-              <img src="images/nav-bullet.png" alt="flèche">
+            <a class="" href="/portfolionew/accueil.php">
+              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
               Accueil
             </a>
             <a class="" href="tableau.php">
-              <img src="images/nav-bullet.png" alt="flèche">
+              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
               Tableaux de synthèse
             </a>
             <a class="" href="competence.php">
-              <img src="images/nav-bullet.png" alt="flèche">
+              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
               Competence
             </a>
             <a class="" href="entreprise.php">
-              <img src="images/nav-bullet.png" alt="flèche">
+              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
               Entreprise
             </a>
             <a class="" href="projet.php">
-              <img src="images/nav-bullet.png" alt="flèche">
+              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
               Projets
             </a>
             <a class="" href="mission.php">
-              <img src="images/nav-bullet.png" alt="flèche">
+              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
               Missions
             </a>
-            <a class="" href="veille.php">
-              <img src="images/nav-bullet.png" alt="flèche">
+            <a class="" href="/portfolionew/veille.php">
+              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
               Veille
             </a>
-            <a class="" href="contact.php">
-              <img src="images/nav-bullet.png" alt="flèche">
+            <a class="" href="/portfolionew/contact.php">
+              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
               Contact 
             </a>
           </div>
@@ -103,7 +103,6 @@
   <script src="js/bootstrap.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
-
 
 </body>
 

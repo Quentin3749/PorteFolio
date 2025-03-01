@@ -150,3 +150,119 @@
   font-size: 30px; /* Exemple de taille en pixels */
   margin-right: 10px;
 }
+
+
+.cv-box {
+  border-radius: 20px;
+  background-color: #030352 !important; /* Forcer la couleur */
+}
+
+
+ /* page accueil.php */
+.documentation-box {
+  border-radius: 20px;
+  background-color: #030352 !important;
+}
+
+ .Curriculum {
+  color: #fff;
+}
+
+.doc {
+  color: #fff;
+}
+
+
+
+/* missions.php */
+
+.netflix {
+
+  border-radius: 20px;
+  background-color: #030352 !important;
+
+
+}
+.netflix {
+
+  border-radius: 20px;
+  background-color: #030352 !important;
+
+
+}
+.maquette {
+
+  border-radius: 20px;
+  background-color: #030352 !important;
+
+
+}
+.boxi {
+  color: #fff;
+
+}
+
+/* apple.php */
+
+.carreau {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.carreau img {
+  border-radius: 20px; /* Arrondi les angles */
+ 
+}
+
+.carreau img {
+  margin-top: 30px; 
+}
+.maquette-apple-page .hero_area {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.maquette-apple-page .service_section {
+  padding-top:50px;
+
+}
+
+.descriptifs{ 
+  color:#fff
+}
+
+.detail-box .encadre {
+  display: flex;
+  justify-content: center;
+}
+
+
+.centered-text {
+  text-align: center;
+  color: #fff;
+}
+
+
+.encadrement {
+  border: 2px solid #007bff; /* Couleur de bordure */
+  border-radius: 10px; /* Arrondir les angles */
+  padding: 20px; /* Espacement interne */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Effet d'ombre */
+  width: 600px; /* Définit la largeur de l'encadrement */
+  
+}
+
+.cadre{
+  display: flex;
+  justify-content: center;
+}
+
+
+.image-container {
+  text-align: center;
+}
+
+
+
+

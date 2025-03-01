@@ -114,7 +114,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="images/immobilier.png" alt="">
+              <img src="images/calculatrice.png" alt="">
             </div>
             <div class="detail-box">
               <h4>
@@ -134,7 +134,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
-              <img src="images/pourboire.png" alt="">
+              <img src="images/immobilier.png" alt="">
             </div>
             <div class="detail-box">
               <h4>
@@ -315,15 +315,7 @@ include_once "header.php";
   <!-- end info section -->
 
 
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </footer>
+  
   <!-- footer section -->
 
   <!-- jQery -->

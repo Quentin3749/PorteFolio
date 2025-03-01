@@ -38,6 +38,7 @@
     <!-- header section strats -->
     <?php 
 include_once "header.php";
+
 ?>
     <!-- end header section -->
     <!-- slider section -->

@@ -35,6 +35,7 @@
 <body class="sub_page">
 
 <?php 
+$root_path = "";
 include_once "header.php";
 ?>
 

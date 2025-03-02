@@ -33,8 +33,9 @@
 </head>
 
 <body class="maquette-apple-page page-maquette-apple">
-<?php 
-include_once "../header.php";
+<?php
+$root_path = "../"; // Chemin pour remonter à la racine
+include_once "../header.php"; // Inclut le header depuis la racine
 ?>
 
   <div class="hero_area">

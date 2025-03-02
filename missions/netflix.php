@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -33,8 +32,9 @@
 </head>
 
 <body class="maquette-apple-page page-maquette-apple">
-<?php 
-include_once "header.php";
+<?php
+$root_path = "../"; // Chemin pour remonter à la racine
+include_once "../header.php"; // Inclut le header depuis la racine
 ?>
 
   <div class="hero_area">
@@ -52,13 +52,13 @@ include_once "header.php";
     <div class="container">
       <div class="heading_container heading_center">
         <h2 class="projet project">
-          Maquette Apple
+          Maquette Netflix
         </h2>
       </div>
     </div>
     <div class="container ">
       <div class="row carreau">
-              <img src="images/applemaquette.png" alt="apple" >
+              <img src="../images/netflixmaquette.png" alt="apple" >
       </div>
     </div>
   </section>
@@ -79,8 +79,8 @@ include_once "header.php";
                 <p class="centered-text">Stylisation avec CSS</p>
                 <p><strong><h3 class="centered-text">Langages utilisés : </h3></strong></p>
                 <div class="image-container">
-                <img class="logo" src="images/HTML5_logo.png" alt="logo html">
-                <img src="images/CSS3_logo.png" alt="logo css">
+                <img class="logo" src="../images/HTML5_logo.png" alt="logo html">
+                <img src="../images/CSS3_logo.png" alt="logo css">
                 </div>
                 <p><strong><h3 class="centered-text">Compétences développées :</h3></strong> </p>
                 <p class="centered-text">Maîtrise des bases du HTML</p>
@@ -97,7 +97,7 @@ include_once "header.php";
         <div class="box">
           
           <div class="btn-box">
-            <a href="https://quentin3749.github.io/maquette-apple/" target="_blank">
+            <a href="https://quentin3749.github.io/projet-netflix/" target="_blank">
               résultat final
             </a>
           </div>
@@ -105,7 +105,7 @@ include_once "header.php";
         <div class="box">
          
           <div class="btn-box">
-            <a href="https://github.com/Quentin3749/maquette-apple" target="_blank">
+            <a href="https://github.com/Quentin3749/projet-netflix" target="_blank">
               visuel du code
             </a>
           </div>

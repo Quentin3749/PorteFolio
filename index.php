@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <?php 
+
+$root_path = "";
 include_once "header.php";
 ?>
 <body>

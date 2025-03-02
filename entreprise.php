@@ -4,6 +4,7 @@
 <body class="sub_page page-maquette">
 
 <?php 
+$root_path = "";
 include_once "header.php";
 ?>
   <!-- About section -->

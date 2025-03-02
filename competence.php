@@ -37,6 +37,8 @@
   <div class="hero_area">
     <!-- header section strats -->
     <?php 
+    
+    $root_path = "";
 include_once "header.php";
 ?>
     <!-- end header section -->

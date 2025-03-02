@@ -34,6 +34,7 @@
 
 <body>
 <?php 
+$root_path = "";
 include_once "header.php";
 ?>
   <div class="hero_area">
@@ -67,7 +68,7 @@ include_once "header.php";
                Maquette Netflix
               </h4>
               
-              <a href="http://localhost/portfolionew/netflix.php">
+              <a href="http://localhost/portfolionew/missions/netflix.php">
                 en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -85,7 +86,7 @@ include_once "header.php";
                 Maquette Apple
               </h4>
              
-              <a href="http://localhost/portfolionew/apple.php">
+              <a href="http://localhost/portfolionew/missions/apple.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -103,7 +104,7 @@ include_once "header.php";
                 Maquette Spotify
               </h4>
               
-              <a href="http://localhost/portfolionew/mission/spotify.php">
+              <a href="http://localhost/portfolionew/missions/spotify.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 

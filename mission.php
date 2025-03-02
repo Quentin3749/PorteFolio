@@ -68,7 +68,7 @@ include_once "header.php";
                Maquette Netflix
               </h4>
               
-              <a href="http://localhost/portfolionew/missions/netflix.php">
+              <a href="missions/netflix.php">
                 en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -86,7 +86,7 @@ include_once "header.php";
                 Maquette Apple
               </h4>
              
-              <a href="http://localhost/portfolionew/missions/apple.php">
+              <a href="missions/apple.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -104,7 +104,7 @@ include_once "header.php";
                 Maquette Spotify
               </h4>
               
-              <a href="http://localhost/portfolionew/missions/spotify.php">
+              <a href="missions/spotify.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 

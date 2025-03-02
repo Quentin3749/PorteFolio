@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php 
-include_once "header-accueil.php";
+include_once "header.php";
 ?>
 <body>
 <div class="hero_area">

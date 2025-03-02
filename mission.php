@@ -33,13 +33,12 @@
 </head>
 
 <body>
-
+<?php 
+include_once "header.php";
+?>
   <div class="hero_area">
     <!-- header section strats -->
-    <?php 
-include_once "header.php";
-
-?>
+  
     <!-- end header section -->
     <!-- slider section -->
     
@@ -68,7 +67,7 @@ include_once "header.php";
                Maquette Netflix
               </h4>
               
-              <a href="http://localhost/portfolionew/missions/netflix.php">
+              <a href="http://localhost/portfolionew/netflix.php">
                 en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -86,7 +85,7 @@ include_once "header.php";
                 Maquette Apple
               </h4>
              
-              <a href="http://localhost/portfolionew/missions/apple.php">
+              <a href="http://localhost/portfolionew/apple.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -104,7 +103,7 @@ include_once "header.php";
                 Maquette Spotify
               </h4>
               
-              <a href="http://localhost/portfolionew/missions/spotify.php">
+              <a href="http://localhost/portfolionew/mission/spotify.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -118,22 +117,6 @@ include_once "header.php";
     </div>
   </section>
 
-  <!-- end service section -->
-
-  <!-- about section -->
-
-  
-
-  <!-- end about section -->
-
-
-  <!-- server section -->
-
- 
-
-  <!-- end server section -->
-
-  <!-- price section -->
 
   <section class="price_section layout_padding">
     <div class="container">

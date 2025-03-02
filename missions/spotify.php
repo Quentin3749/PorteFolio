@@ -34,20 +34,10 @@
 
 <body class="maquette-apple-page page-maquette-apple">
 <?php 
-include_once dirname(__DIR__) . "/header.php";
-
+include_once "../header.php";
 ?>
 
   <div class="hero_area">
-    <!-- header section starts -->
-    
-    <!-- end header section -->
-    <!-- slider section -->
-    
-    <!-- end slider section -->
-
-  <!-- service section -->
-
   <section class="service_section layout_padding" id="maquette-apple-section">
 
     <div class="container">
@@ -80,8 +70,8 @@ include_once dirname(__DIR__) . "/header.php";
                 <p class="centered-text">Stylisation avec CSS</p>
                 <p><strong><h3 class="centered-text">Langages utilisés : </h3></strong></p>
                 <div class="image-container">
-                <img class="logo" src="../images/HTML5_logo.png" alt="logo html">
-                <img src="../images/CSS3_logo.png" alt="logo css">
+                <img class="logo" src="images/HTML5_logo.png" alt="logo html">
+                <img src="images/CSS3_logo.png" alt="logo css">
                 </div>
                 <p><strong><h3 class="centered-text">Compétences développées :</h3></strong> </p>
                 <p class="centered-text">Maîtrise des bases du HTML</p>

@@ -89,7 +89,7 @@ include_once "header.php";
         <!-- Right Column -->
         <div class="col-lg-6">
           <div class="form_container">
-            <form target="_blank" action="https://formsubmit.co/nathan.serror@gmail.com" method="POST">
+            <form target="_blank" action="https://formsubmit.co/q.etourmy.pro@gmail.com" method="POST">
               <div class="form-group">
                 <label for="name">Nom :</label>
                 <input type="text" id="name" name="name" class="form-control" placeholder="Votre Nom" required>

@@ -58,7 +58,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
     </div>
     <div class="container ">
       <div class="row carreau">
-              <img src="../images/netflixmaquette.png" alt="apple" >
+              <img src="../images/netflixmaquette.png" alt="netflix" >
       </div>
     </div>
   </section>

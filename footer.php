@@ -50,36 +50,36 @@
             Links
           </h4>
           <div class="info_links">
-            <a class="" href="/portfolionew/accueil.php">
-              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
+            <a class="" href="/portfolionew/index.php">
+            <img src="<?php echo $root_path; ?>images/nav-bullet.png" alt="flèche">
               Accueil
             </a>
             <a class="" href="tableau.php">
-              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
+            <img src="<?php echo $root_path; ?>images/nav-bullet.png" alt="flèche">
               Tableaux de synthèse
             </a>
             <a class="" href="competence.php">
-              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
+            <img src="<?php echo $root_path; ?>images/nav-bullet.png" alt="flèche">
               Competence
             </a>
             <a class="" href="entreprise.php">
-              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
+            <img src="<?php echo $root_path; ?>images/nav-bullet.png" alt="flèche">
               Entreprise
             </a>
             <a class="" href="projet.php">
-              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
+            <img src="<?php echo $root_path; ?>images/nav-bullet.png" alt="flèche">
               Projets
             </a>
             <a class="" href="mission.php">
-              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
+            <img src="<?php echo $root_path; ?>images/nav-bullet.png" alt="flèche">
               Missions
             </a>
             <a class="" href="/portfolionew/veille.php">
-              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
+            <img src="<?php echo $root_path; ?>images/nav-bullet.png" alt="flèche">
               Veille
             </a>
             <a class="" href="/portfolionew/contact.php">
-              <img src="/portfolionew/images/nav-bullet.png" alt="flèche">
+            <img src="<?php echo $root_path; ?>images/nav-bullet.png" alt="flèche">
               Contact 
             </a>
           </div>

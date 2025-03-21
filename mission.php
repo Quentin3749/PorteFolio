@@ -51,12 +51,13 @@ include_once "header.php";
   <section class="service_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
-        <h2 class="projet">
+        <h1 class="projet">
           Missions 
-        </h2>
+        </h1>
       </div>
     </div>
     <div class="container ">
+      
       <div class="row">
         <div class="col-md-6 col-lg-4 ">
           <div class="box maquette ">
@@ -241,16 +242,7 @@ include_once "header.php";
   <!-- end info section -->
 
 
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </footer>
-  <!-- footer section -->
+
 
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>

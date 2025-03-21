@@ -34,6 +34,7 @@
   }
 .projet {
   color: #ffff;
+  font-weight: bolderFcenter;
 }
  .row .documents1 {
   display: flex;
@@ -265,4 +266,123 @@
 
 
 
+/* footer.php*/
 
+.info_section.layout_padding2 {
+  padding-top: 30px;   
+  padding-bottom: 30px; 
+}
+
+.info_section h4 {
+  margin-bottom: 15px; 
+}
+
+.contact_link_box a, .info_links a {
+  margin-bottom: 8px; /
+  display: block;
+}
+
+.info_social {
+  margin-top: 15px; /
+}
+
+
+
+.skills-section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style pour les catégories de compétences */
+.skills-category {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #030352 ;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skills-category h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3498db;
+  color: #fff;
+}
+
+
+
+/* Style pour la liste des compétences */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+ 
+ 
+}
+
+/* Style pour chaque élément de compétence */
+.skills-list li {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 15px;
+  width: calc(33.333% - 20px);
+  min-width: 200px;
+  background-color: ;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skills-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les images */
+.skills-list img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+/* Style pour les titres des compétences */
+.skills-list h3 {
+  margin: 8px 0;
+  color: #fff;
+}
+
+/* Style pour les descriptions des compétences */
+.skills-list p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .skills-list li {
+      width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-list li {
+      width: 100%;
+  }
+}

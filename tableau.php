@@ -56,22 +56,20 @@ include_once "header.php";
 
   <!-- info section -->
 
-  <?php 
-  include_once "footer.php";
-  ?>
+  
 
   <!-- end info section -->
 
 
   <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </footer>
+ 
+    
+    <?php 
+  include_once "footer.php";
+  ?>
+      
+    
+  
   <!-- footer section -->
 
   <!-- jQery -->

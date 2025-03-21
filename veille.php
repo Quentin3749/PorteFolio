@@ -45,9 +45,9 @@ include_once "header.php";
     <section class="service_section layout_padding ">
     
       <div class="heading_container heading_center ">
-        <h2 class="projet">
+        <h1 class="projet">
           Veille technologique
-        </h2>
+        </h1>
       </div>
       <div class="container container1 slider_section">
            
@@ -781,14 +781,7 @@ include_once "header.php";
 
 
   <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
-    </div>
-  </footer>
+  
   <!-- footer section -->
 
   <!-- jQery -->

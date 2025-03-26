@@ -76,7 +76,7 @@ include_once "header.php";
                     <p>Conception de mises en page modernes et responsives</p>
                 </li>
                 <li>
-                    <img src="<?php echo $root_path; ?>images/JavaScript_Logo.png" alt="logo javascript">
+                    <img src="<?php echo $root_path; ?>images/logo_javascript.png" alt="logo javascript">
                     <h3>JavaScript</h3>
                     <p>Développement d'interactions dynamiques côté client</p>
                 </li>

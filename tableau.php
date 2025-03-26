@@ -32,43 +32,65 @@
 
 </head>
 
-<body class="sub_page">
+<body>
 
-<?php 
-$root_path = "";
+  <div class="hero_area">
+    <!-- header section strats -->
+    <?php 
+    $root_path = "";
 include_once "header.php";
 ?>
+    <!-- end header section -->
+    <!-- slider section -->
+    
+    <!-- end slider section -->
+ 
 
-  <!-- contact section -->
-  <section class="contact_section layout_padding">
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
-        <h2>
-          tableau de compétences
-        </h2>
-      </div>
-      <div class="row">
-      <img src="images/tableau-competences.png" alt="tableau" class="img-fluid w-90">
+        <h1 class="projet">
+        tableau de compétences
+        </h1>
       </div>
     </div>
-  </section>
-  <!-- end contact section -->
+    <div class="container text-center">
+      <img src="images/tableau-competences.png" alt="tableau" class="img-fluid mx-auto d-block">
+    </div>
+</section>
 
-  <!-- info section -->
+  <!-- end service section -->
+
+  <!-- about section -->
 
   
+
+  <!-- end about section -->
+
+
+  <!-- server section -->
+
+ 
+
+  <!-- end server section -->
+
+  <!-- price section -->
+
+  
+
+  <!-- price section -->
+
+  <!-- client section -->
+
+  <?php 
+  include_once "footer.php";
+  ?>
 
   <!-- end info section -->
 
 
-  <!-- footer section -->
- 
-    
-    <?php 
-  include_once "footer.php";
-  ?>
-      
-    
   
   <!-- footer section -->
 

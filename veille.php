@@ -64,7 +64,7 @@ include_once "header.php";
                   - Mes outils de veille technologique :<br>
                </h2>
                <p>Pour effectuer ma veille technologique de manière efficace et organisée, j'utilise plusieurs agrégateurs de flux RSS qui me permettent de centraliser et de suivre facilement toutes les sources d'information pertinentes. Ces outils me permettent de rester constamment informé des dernières actualités et évolutions dans mon domaine d'expertise :</p>
-       <p><span style="margin-left: 20px;"><img src="images/logo_freshrss.png"></span><span style="margin-left: 20px;"><img src="images/logo_feedly.png"></span><span style="margin-left: 20px;"><img src="images/logo_daily.dev.jpg"> <img src="images/Reddit-Logo.png"></span></p>
+       <p><span style="margin-left: 20px;"><img src="images/logo_freshrss.png"></span><span style="margin-left: 20px;"><img src="images/google_alert.png"></span><span style="margin-left: 20px;"><img src="images/logo_daily.dev.jpg"> <img src="images/Reddit-Logo.png"></span></p>
        <br/>
        <h2>- Mes sujets de veille :</h2>
                 <ul>

@@ -62,7 +62,7 @@ include_once "header.php";
                         <h4>
                             Curriculum Vitae
                         </h4>
-                        <a href="images/CV - Quentin Etourmy.pdf" target="_blank">
+                        <a href="images/CV - QuentinEtourmy.pdf" target="_blank">
                             télécharger
                             <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                         </a>

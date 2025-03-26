@@ -87,7 +87,7 @@ include_once "header.php";
                     <p>Développement côté serveur et logique métier</p>
                 </li>
                 <li>
-                    <img src="<?php echo $root_path; ?>images/SQL_logo.png" alt="logo sql">
+                    <img src="<?php echo $root_path; ?>images/SQL_logo3.png" alt="logo sql">
                     
                     <h3>SQL</h3>
                     <p>Requêtes et manipulation de bases de données</p>
@@ -124,7 +124,7 @@ include_once "header.php";
             <ul class="skills-list">
                 <li>
                     
-                    <img src="<?php echo $root_path; ?>images/MySQL_Logo2.png" alt="logo MySQL">
+                    <img src="<?php echo $root_path; ?>images/MySQL_Logo.png" alt="logo MySQL">
                     <h3>MySQL</h3>
                     <p>Gestion et optimisation de bases de données</p>
                 </li>
@@ -156,7 +156,7 @@ include_once "header.php";
             <h2>Gestion de Projet</h2>
             <ul class="skills-list">
                 <li>
-                    <img src="<?php echo $root_path; ?>images/GitHub_Logo.png" alt="logo git hub">
+                    <img src="<?php echo $root_path; ?>images/GitHub_Logo_white.png" alt="logo git hub">
                     <h3>GitHub</h3>
                     <p>Contrôle de version et collaboration</p>
                 </li>

@@ -124,7 +124,7 @@ include_once "header.php";
             <ul class="skills-list">
                 <li>
                     
-                    <img src="<?php echo $root_path; ?>images/" alt="logo MySQL">
+                    <img src="<?php echo $root_path; ?>images/MySQL_logo.png" alt="logo MySQL">
                     <h3>MySQL</h3>
                     <p>Gestion et optimisation de bases de données</p>
                 </li>

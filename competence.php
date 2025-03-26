@@ -87,7 +87,7 @@ include_once "header.php";
                     <p>Développement côté serveur et logique métier</p>
                 </li>
                 <li>
-                    <img src="<?php echo $root_path; ?>images/GitHub_Logo_white.png" alt="logo git hub">
+                    <img src="<?php echo $root_path; ?>images/logo_sql.png" alt="logo git hub">
                     
                     <h3>SQL</h3>
                     <p>Requêtes et manipulation de bases de données</p>

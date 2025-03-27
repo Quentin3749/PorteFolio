@@ -387,4 +387,23 @@
   }
 }
 
+/* page veille */
+.veille-page .box {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+Reduced Spacing for Technology Watch Section
+
+/* Reduce space in technology watch section */
+.technology-watch-carousel .heading_container {
+    margin-bottom: 4px; /* Reduced from default spacing */
+}
+
+.theme-nav {
+    margin-top: 10px; /* Tightened up top margin */
+    margin-bottom: 0px; /* Reduced bottom margin */
+}
 

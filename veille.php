@@ -30,9 +30,34 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+
+  <style>
+        /* Debug Styles */
+        .theme-nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .theme-nav button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+        }
+        .theme-nav button.active {
+            background-color: #007bff;
+            color: white;
+        }
+        .carousel-container {
+            display: none;
+        }
+        .carousel-container.active {
+            display: block;
+        }
+    </style>
+
 </head>
 
-<body>
+<body class="veille-page">
 
   <div class="hero_area">
     <!-- header section strats -->
@@ -65,22 +90,14 @@ include_once "header.php";
                </h2>
                <p>Pour effectuer ma veille technologique de manière efficace et organisée, j'utilise plusieurs agrégateurs de flux RSS qui me permettent de centraliser et de suivre facilement toutes les sources d'information pertinentes. Ces outils me permettent de rester constamment informé des dernières actualités et évolutions dans mon domaine d'expertise :</p>
        <p><span style="margin-left: 20px;"><img src="images/logo_freshrss.png"></span><span style="margin-left: 20px;"><img src="images/google_alert.png"></span><span style="margin-left: 20px;"><img src="images/logo_daily.dev.jpg"> <img src="images/Reddit-Logo.png"></span></p>
-       <br/>
-       <h2>- Mes sujets de veille :</h2>
-                <ul>
-                    
-                    
-                    <li>Les algorithmes d'intelligence artificielle et d'apprentissage automatique.</li>
-                    <li>La programmation robotique : évolution des langages dans le domaine de la robotique industrielle et collaborative.</li>
-                    <li>Les nouvelles cybermenaces, les solutions de protection émergentes, et l'évolution des techniques de défense contre les ransomwares et autres formes de cyberattaques.</li>
-                </ul>
+       
            </div>
 
 </div>
     </section>
     
     <!-- end slider section -->
-  </div>
+
 
   <!-- service section -->
 
@@ -103,663 +120,642 @@ include_once "header.php";
 
   <!-- price section -->
 
-  <section class="price_section layout_padding">
-  <div class="heading_container heading_center ">
-        <h2>
-        Les algorithmes d'intelligence artificielle et d'apprentissage automatique. 
-        </h2>
-      </div>
-    <div class="container">
-      <div class="heading_container heading_center">
-        
-      </div>
-      <div class="price_container ">
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>49</span></h2>
-            <h6>
-              Startup
-            </h6>
-            <ul class="price_features">
-              <li>
-                2GB RAM
-              </li>
-              <li>
-                20GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
+  <section class="service_section layout_padding technology-watch-carousel">
+        <div class="heading_container heading_center">
+            <h1 class="projet">Mes sujets de veille</h1>
         </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>99</span></h2>
-            <h6>
-              Standard
-            </h6>
-            <ul class="price_features">
-              <li>
-                4GB RAM
-              </li>
-              <li>
-                50GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
+
+        <!-- Theme Navigation -->
+        <div class="theme-nav">
+            <button onclick="showCarousel('ai')" class="active">L'intelligence Artificielle</button>
+            <button onclick="showCarousel('robotics')">Programmation Robotique</button>
+            <button onclick="showCarousel('cybersecurity')">cybermenaces et solutions</button>
         </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>149</span></h2>
-            <h6>
-              Business
-            </h6>
-            <ul class="price_features">
-              <li>
-                8GB RAM
-              </li>
-              <li>
-                100GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
+
+        <!-- AI Carousel -->
+        <div id="ai-carousel" class="carousel-container active">
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    </div>
+                    <!-- Ajoutez 2-3 autres colonnes similaires -->
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    </div>
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+   </div>
+   </div>
+   <div class="row">
+   <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+
+                    <!-- Ajoutez 2-3 autres colonnes similaires -->
+                    <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+<section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="heading_container heading_center">
-      </div>
-      <div class="price_container ">
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>49</span></h2>
-            <h6>
-              Startup
-            </h6>
-            <ul class="price_features">
-              <li>
-                2GB RAM
-              </li>
-              <li>
-                20GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
+
+
+        <!-- Robotics Carousel -->
+        <div id="robotics-carousel" class="carousel-container">
+            <div class="container">
+                <div class="row">
+                    
+                    <!-- Ajoutez 2-3 autres colonnes similaires -->
+                    
+                   
+                </div>
+                <div class="row">
+                <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    <!-- Ajoutez 2-3 autres colonnes similaires -->
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    </div>
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>99</span></h2>
-            <h6>
-              Standard
-            </h6>
-            <ul class="price_features">
-              <li>
-                4GB RAM
-              </li>
-              <li>
-                50GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
+
+        <!-- Cybersecurity Carousel -->
+        <div id="cybersecurity-carousel" class="carousel-container">
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    </div>
+                    <!-- Ajoutez 2-3 autres colonnes similaires -->
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    </div>
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    </div>
+                    <!-- Ajoutez 2-3 autres colonnes similaires -->
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    </div>
+                    <div class="col-md-4">
+                    <section class="price_section layout_padding">
+   <div class="price_container ">
+      
+     <div class="box">
+       <div class="detail-box">
+         <h2>$ <span>1492</span></h2>
+         <h6>
+           Business
+         </h6>
+         <ul class="price_features">
+           <li>
+             8GB RAM
+           </li>
+           <li>
+             100GB SSD Cloud Storage
+           </li>
+           <li>
+             Weekly Backups
+           </li>
+           <li>
+             DDoS Protection
+           </li>
+           <li>
+             Full Root Access
+           </li>
+           
+         </ul>
+       </div>
+       <div class="btn-box">
+         <a href="">
+           See Detail
+         </a>
+       </div>
+     </div>
+ </div>
+</section>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>149</span></h2>
-            <h6>
-              Business
-            </h6>
-            <ul class="price_features">
-              <li>
-                8GB RAM
-              </li>
-              <li>
-                100GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+
+    </section>
+
     
-  </section>
-  <section class="price_section layout_padding">
-  <div class="heading_container heading_center ">
-        <h2>
-         L'évolution des langages de programmation dans le domaine de la robotique industrielle et collaborative. 
-        </h2>
-      </div>
-    <div class="container">
-      <div class="heading_container heading_center">
-        
-      </div>
-      <div class="price_container ">
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>49</span></h2>
-            <h6>
-              Startup
-            </h6>
-            <ul class="price_features">
-              <li>
-                2GB RAM
-              </li>
-              <li>
-                20GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>99</span></h2>
-            <h6>
-              Standard
-            </h6>
-            <ul class="price_features">
-              <li>
-                4GB RAM
-              </li>
-              <li>
-                50GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>149</span></h2>
-            <h6>
-              Business
-            </h6>
-            <ul class="price_features">
-              <li>
-                8GB RAM
-              </li>
-              <li>
-                100GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="heading_container heading_center">
-      </div>
-      <div class="price_container ">
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>49</span></h2>
-            <h6>
-              Startup
-            </h6>
-            <ul class="price_features">
-              <li>
-                2GB RAM
-              </li>
-              <li>
-                20GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>99</span></h2>
-            <h6>
-              Standard
-            </h6>
-            <ul class="price_features">
-              <li>
-                4GB RAM
-              </li>
-              <li>
-                50GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>149</span></h2>
-            <h6>
-              Business
-            </h6>
-            <ul class="price_features">
-              <li>
-                8GB RAM
-              </li>
-              <li>
-                100GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  </section>
-  <section class="price_section layout_padding">
-  <div class="heading_container heading_center ">
-        <h2>
-        Les nouvelles cybermenaces, les solutions de protection émergentes, et l'évolution des techniques de défense. 
-        </h2>
-      </div>
-    <div class="container">
-      <div class="heading_container heading_center">
-        
-      </div>
-      <div class="price_container ">
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>49</span></h2>
-            <h6>
-              Startup
-            </h6>
-            <ul class="price_features">
-              <li>
-                2GB RAM
-              </li>
-              <li>
-                20GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>99</span></h2>
-            <h6>
-              Standard
-            </h6>
-            <ul class="price_features">
-              <li>
-                4GB RAM
-              </li>
-              <li>
-                50GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>149</span></h2>
-            <h6>
-              Business
-            </h6>
-            <ul class="price_features">
-              <li>
-                8GB RAM
-              </li>
-              <li>
-                100GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="heading_container heading_center">
-      </div>
-      <div class="price_container ">
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>49</span></h2>
-            <h6>
-              Startup
-            </h6>
-            <ul class="price_features">
-              <li>
-                2GB RAM
-              </li>
-              <li>
-                20GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>99</span></h2>
-            <h6>
-              Standard
-            </h6>
-            <ul class="price_features">
-              <li>
-                4GB RAM
-              </li>
-              <li>
-                50GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="detail-box">
-            <h2>$ <span>149</span></h2>
-            <h6>
-              Business
-            </h6>
-            <ul class="price_features">
-              <li>
-                8GB RAM
-              </li>
-              <li>
-                100GB SSD Cloud Storage
-              </li>
-              <li>
-                Weekly Backups
-              </li>
-              <li>
-                DDoS Protection
-              </li>
-              <li>
-                Full Root Access
-              </li>
-              <li>
-                24/7/365 Tech Support
-              </li>
-            </ul>
-          </div>
-          <div class="btn-box">
-            <a href="">
-              See Detail
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  </section>
+
+  
+
+  
+
+    <script>
+        function showCarousel(theme) {
+            // Cacher tous les carrousels
+            ['ai', 'robotics', 'cybersecurity'].forEach(t => {
+                document.getElementById(`${t}-carousel`).classList.remove('active');
+                document.querySelector(`button[onclick="showCarousel('${t}')"]`).classList.remove('active');
+            });
+
+            // Afficher le carrousel sélectionné
+            document.getElementById(`${theme}-carousel`).classList.add('active');
+            document.querySelector(`button[onclick="showCarousel('${theme}')"]`).classList.add('active');
+        }
+    </script>
 
   <!-- price section -->
 

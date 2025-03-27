@@ -117,6 +117,152 @@ include_once "header.php";
       
       </div>
     </div>
+  
+
+  
+    <div class="container">
+      <div class="heading_container heading_center">
+        
+      </div>
+    </div>
+    <div class="container ">
+    
+      <div class="row">
+        
+       
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                calculatrice immobilier
+              </h4>
+              <p>
+              projet à mettre sur GIThub
+              </p>
+              <a href="https://quentin3749.github.io/calculatrice-immobiliere/">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/immobilier.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                calculatrice pourboire
+              </h4>
+              <p>
+                projet à mettre sur GIThub
+              </p>
+              <a href="">
+                en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/s6.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                bienvenue Formation
+              </h4>
+              <p>
+                à terminer
+              projet à mettre sur GIThub
+              </p>
+              <a href="">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container ">
+    <h2 class="projet"> projet entreprise</h2>
+      <div class="row">
+        
+       
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                calculatrice immobilier
+              </h4>
+              <p>
+              projet à mettre sur GIThub
+              </p>
+              <a href="https://quentin3749.github.io/calculatrice-immobiliere/">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/immobilier.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                calculatrice pourboire
+              </h4>
+              <p>
+                projet à mettre sur GIThub
+              </p>
+              <a href="">
+                en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/s6.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                bienvenue Formation
+              </h4>
+              <p>
+                à terminer
+              projet à mettre sur GIThub
+              </p>
+              <a href="">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
 

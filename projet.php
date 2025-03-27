@@ -138,11 +138,8 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                calculatrice immobilier
+                Mon professionnel
               </h4>
-              <p>
-              projet à mettre sur GIThub
-              </p>
               <a href="https://quentin3749.github.io/calculatrice-immobiliere/">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -158,11 +155,8 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                calculatrice pourboire
+                Mon particulier
               </h4>
-              <p>
-                projet à mettre sur GIThub
-              </p>
               <a href="">
                 en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -178,12 +172,8 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                bienvenue Formation
+                IA axa
               </h4>
-              <p>
-                à terminer
-              projet à mettre sur GIThub
-              </p>
               <a href="">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>

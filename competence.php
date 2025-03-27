@@ -180,11 +180,7 @@ include_once "header.php";
         <div class="skills-category">
             <h2>Hébergement et Serveurs</h2>
             <ul class="skills-list">
-                <li>
-                    <img src="<?php echo $root_path; ?>images/Apache_Logo.png" alt="logo Apache ">
-                    <h3>Apache</h3>
-                    <p>Serveur web open-source</p>
-                </li>
+                
                 
                 <li>
                     <img src="<?php echo $root_path; ?>images/xampp_logo.png" alt=" logo xampp">

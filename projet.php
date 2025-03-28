@@ -69,7 +69,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                calculatrice immobilier
+                click and eat
               </h4>
               <p>
               projet à mettre sur GIThub
@@ -89,7 +89,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                calculatrice pourboire
+                SMartciné
               </h4>
               <p>
                 projet à mettre sur GIThub

@@ -395,15 +395,144 @@
 }
 
 
-Reduced Spacing for Technology Watch Section
-
-/* Reduce space in technology watch section */
-.technology-watch-carousel .heading_container {
-    margin-bottom: 4px; /* Reduced from default spacing */
+.article-slot .card {
+  min-height: 250px;
+  transition: all 0.3s ease;
 }
 
-.theme-nav {
-    margin-top: 10px; /* Tightened up top margin */
-    margin-bottom: 0px; /* Reduced bottom margin */
+.article-slot .card:hover {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
 }
 
+.summary-section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+.veille-page p {
+  text-align: center;
+}
+
+.veille-page .logo-container {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+/* Debug Styles */
+.veille-page .theme-nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.veille-page .theme-nav button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
+
+.veille-page .theme-nav button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.veille-page .carousel-container {
+  display: none;
+}
+
+.veille-page .carousel-container.active {
+  display: block;
+}
+
+.veille-page .service_section.technology-watch-carousel {
+  padding-top: 0; /* Remove top padding */
+  margin-top: 0px; /* Negative margin to pull sections closer */
+}
+
+/* Réduire les marges et padding des sections et rangées */
+.veille-page .row {
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.veille-page .price_section.layout_padding {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.veille-page .technology-watch-carousel {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.veille-page .price_section .container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.veille-page .price_container {
+  margin-bottom: 10px !important;
+}
+
+
+/* Styles spécifiques à veille.php */
+.veille-page .theme-nav button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.veille-page .theme-nav button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.veille-page .carousel-container {
+  display: none;
+  margin-top: 20px;
+}
+
+.veille-page .carousel-container.active {
+  display: block;
+}
+
+.veille-page .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.veille-page .grid-item {
+  background: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.veille-page .description {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.veille-page .theme-description {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}

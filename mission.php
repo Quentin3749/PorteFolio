@@ -138,12 +138,10 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                calculatrice immobilier
+                calculatrice immobiliere
               </h4>
-              <p>
-              projet à mettre sur GIThub
-              </p>
-              <a href="https://quentin3749.github.io/calculatrice-immobiliere/">
+             
+              <a href="missions/calculatriceimmobiliere.php">  
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -160,10 +158,8 @@ include_once "header.php";
               <h4>
                 calculatrice pourboire
               </h4>
-              <p>
-                projet à mettre sur GIThub
-              </p>
-              <a href="">
+            
+              <a href="missions/calculatricepourboire.php">
                 en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -171,27 +167,7 @@ include_once "header.php";
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box maquette ">
-            <div class="img-box">
-              <img src="images/s6.png" alt="">
-            </div>
-            <div class="detail-box boxi">
-              <h4>
-                bienvenue Formation
-              </h4>
-              <p>
-                à terminer
-              projet à mettre sur GIThub
-              </p>
-              <a href="">
-              en savoir plus
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </div>
     <div class="container ">
@@ -207,10 +183,10 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                calculatrice immobilier
+                mission entreprise
               </h4>
               <p>
-              projet à mettre sur GIThub
+              à ajouter
               </p>
               <a href="https://quentin3749.github.io/calculatrice-immobiliere/">
               en savoir plus
@@ -227,10 +203,10 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                calculatrice pourboire
+              mission entreprise
               </h4>
               <p>
-                projet à mettre sur GIThub
+                à ajouter
               </p>
               <a href="">
                 en savoir plus
@@ -247,11 +223,10 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                bienvenue Formation
+                mission entreprise
               </h4>
               <p>
-                à terminer
-              projet à mettre sur GIThub
+                à ajouter
               </p>
               <a href="">
               en savoir plus

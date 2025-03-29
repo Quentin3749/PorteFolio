@@ -104,7 +104,6 @@ include_once "header.php";
               <h4>
                 Maquette Spotify
               </h4>
-              
               <a href="missions/spotify.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -125,51 +124,43 @@ include_once "header.php";
         
       </div>
     </div>
-    <div class="container ">
-    
-      <div class="row">
-        
-       
-        
-        <div class="col-md-6 col-lg-4">
-          <div class="box maquette ">
-            <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
-            </div>
-            <div class="detail-box boxi">
-              <h4>
-                calculatrice immobiliere
-              </h4>
-             
-              <a href="missions/calculatriceimmobiliere.php">  
-              en savoir plus
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
+    <div class="container centered-section">
+  <div class="row">
+    <div class="col-md-6 col-lg-4">
+      <div class="box maquette">
+        <div class="img-box">
+          <img src="images/calculatrice.png" alt="">
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box maquette ">
-            <div class="img-box">
-              <img src="images/immobilier.png" alt="">
-            </div>
-            <div class="detail-box boxi">
-              <h4>
-                calculatrice pourboire
-              </h4>
-            
-              <a href="missions/calculatricepourboire.php">
-                en savoir plus
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
+        <div class="detail-box boxi">
+          <h4>
+            calculatrice immobiliere
+          </h4>
+          <a href="missions/calculatriceimmobiliere.php">
+            en savoir plus
+            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+          </a>
         </div>
-       
       </div>
     </div>
+    <div class="col-md-6 col-lg-4">
+      <div class="box maquette">
+        <div class="img-box">
+          <img src="images/immobilier.png" alt="">
+        </div>
+        <div class="detail-box boxi">
+          <h4>
+            calculatrice pourboire
+          </h4>
+          <a href="missions/calculatricepourboire.php">
+            en savoir plus
+            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     <div class="container ">
     <h2 class="projet"> projet entreprise</h2>
       <div class="row">

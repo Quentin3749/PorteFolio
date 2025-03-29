@@ -69,12 +69,12 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                click and eat
+                Click and Eat
               </h4>
               <p>
               projet à mettre sur GIThub
               </p>
-              <a href="https://quentin3749.github.io/calculatrice-immobiliere/">
+              <a href="projet/clickandeat.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -89,12 +89,12 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                SMartciné
+                SmartCiné
               </h4>
               <p>
                 projet à mettre sur GIThub
               </p>
-              <a href="">
+              <a href="projet/clickandeat.php">
                 en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -109,13 +109,13 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                bienvenue Formation
+                Bienvenue Formation
               </h4>
               <p>
                 à terminer
               projet à mettre sur GIThub
               </p>
-              <a href="">
+              <a href="projet/bienvenueformation.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -140,7 +140,7 @@ include_once "header.php";
               <h4>
                 Mon professionnel
               </h4>
-              <a href="https://quentin3749.github.io/calculatrice-immobiliere/">
+              <a href="projet/monprofessionnel.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -157,7 +157,7 @@ include_once "header.php";
               <h4>
                 Mon particulier
               </h4>
-              <a href="">
+              <a href="projet/monparticulier.php">
                 en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -174,7 +174,7 @@ include_once "header.php";
               <h4>
                 IA axa
               </h4>
-              <a href="">
+              <a href="projet/iaaxa.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 

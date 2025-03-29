@@ -29,10 +29,11 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/new.css" rel="stylesheet" />
 
 </head>
 
-<body>
+<body class="tableau-competences-page">
 
   <div class="hero_area">
     <!-- header section strats -->
@@ -49,17 +50,33 @@ include_once "header.php";
   <!-- service section -->
 
   <section class="service_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h1 class="projet">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h1 class="projet">
         tableau de compétences
-        </h1>
+      </h1>
+    </div>
+  </div>
+  <div class="container text-center">
+    <img src="images/BTS SIO-2025-E5-Tableau de synthese-2.png" alt="tableau" class="img-fluid mx-auto d-block">
+    
+    <!-- Boutons ajoutés sous l'image -->
+   
+  </div>
+</section>
+
+<section class="price_section layout_padding tableau-price-section">
+  <div class="price_container tableau-button-container">
+    <div class="box">
+      <div class="btn-box">
+        <a href="images/BTS SIO-2025-E5-Tableau de synthese.pdf" download="BTS SIO-2025-E5-Tableau de synthese.pdf">
+          télécharger le fichier pdf
+        </a>
       </div>
     </div>
-    <div class="container text-center">
-      <img src="images/tableau-competences.png" alt="tableau" class="img-fluid mx-auto d-block">
-    </div>
+  </div>
 </section>
+
 
   <!-- end service section -->
 

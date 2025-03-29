@@ -72,13 +72,29 @@ include_once "header.php";
             <div class="col-md-6 col-lg-4">
                 <div class="box documentation-box">
                     <div class="img-box">
-                        <img src="images/s2.png" alt="">
+                        <img src="images/logo_anssi.png" alt="">
                     </div>
                     <div class="detail-box doc">
                         <h4>
-                            Documentation BTS SIO
+                            Attestation ANSSI
                         </h4>
-                        <a href="">
+                        <a href="images/attestation_ANSSI.pdf" target="_blank">
+                            télécharger
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="box documentation-box">
+                    <div class="img-box">
+                        <img src="images/logo_rgpd.png" alt="">
+                    </div>
+                    <div class="detail-box doc">
+                        <h4>
+                            Attestation RGPD
+                        </h4>
+                        <a href="images/attestation_rgpd.pdf" target="_blank">
                             télécharger
                             <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                         </a>

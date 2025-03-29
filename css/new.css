@@ -536,3 +536,65 @@
   color: #333;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
+
+
+.tableau-price-section {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.tableau-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Custom adjustments for the tableau de compétences page */
+.service_section.layout_padding {
+  padding-bottom: 30px !important; /* Reduce bottom padding */
+  padding-top: 60px !important;    /* Slightly increase top padding */
+}
+
+/* Keep your existing styles */
+.tableau-price-section {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+.tableau-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.tableau-button-container .box {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.tableau-button-container .btn-box {
+  margin: 0;
+  text-align: center;
+}
+
+.tableau-button-container .btn-box a {
+  display: inline-block;
+}
+
+/* Ajouter un espacement plus grand entre les divs spécifiques à cette page */
+.tableau-competences-page .service_section.layout_padding .container + .container.text-center {
+  margin-top: 40px; /* Ajuster la valeur selon l'espacement souhaité */
+}
+/* Centrer la section sur cette page uniquement */
+
+
+
+.centered-section .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

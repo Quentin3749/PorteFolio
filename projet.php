@@ -60,7 +60,7 @@ include_once "header.php";
     <h2 class="projet"> projet école</h2>
       <div class="row">
         
-       
+
         
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
@@ -82,6 +82,7 @@ include_once "header.php";
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
@@ -89,19 +90,19 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                SmartCiné
+                Portfolio
               </h4>
               <p>
                 projet à mettre sur GIThub
               </p>
-              <a href="projet/clickandeat.php">
+              <a href="projet/portfolio.php">
                 en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
               </a>
             </div>
           </div>
         </div>
+
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
@@ -118,19 +119,17 @@ include_once "header.php";
               <a href="projet/bienvenueformation.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
               </a>
             </div>
           </div>
         </div>
+        
       </div>
     </div>
+    <br>
     <div class="container ">
     <h2 class="projet"> projet entreprise</h2>
       <div class="row">
-        
-       
-        
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
@@ -168,7 +167,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/s6.png" alt="">
+              <img src="images/logo_ia.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>

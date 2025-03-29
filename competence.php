@@ -29,180 +29,757 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+ 
+
+
+  
 
 </head>
 
-<body>
-<?php 
-$root_path = "";
-include_once "header.php";
-?>
+<body class="competence-page">
+
   <div class="hero_area">
     <!-- header section strats -->
-  
+    <?php 
+    $root_path = "";
+include_once "header.php";
+?>
     <!-- end header section -->
     <!-- slider section -->
+    <section class="service_section layout_padding ">
     
-    <!-- end slider section -->
- 
-
-  <!-- service section -->
-
-  <section class="service_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
+      <div class="heading_container heading_center ">
         <h1 class="projet">
           Compétences
         </h1>
       </div>
+     
+    </section>
+    
+
+    <section class="service_section layout_padding technology-watch-carousel">
+   
+
+    <div class="theme-nav">
+        
+        <button onclick="showCarousel('tout')" class="active">tout</button>
+        <button onclick="showCarousel('patrimoine')">patrimoine informatique</button>
+        <button onclick="showCarousel('assistances')">demandes d'assistances et d'évolution</button>
+        <button onclick="showCarousel('présence')">présence en ligne</button>
+        <button onclick="showCarousel('projet')">mode projet</button>
+        <button onclick="showCarousel('disposition')">Mise à disposition</button>
+        <button onclick="showCarousel('développement')">développement professionnel</button>
+
     </div>
+
+    <div class="carousel-container-wrapper">
+        <div id="tout-carousel" class="carousel-container active">
+            
+<section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Click and Eat
+              </h4>
+              <p>
+              projet à mettre sur GIThub
+              </p>
+              <a href="projet/clickandeat.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/immobilier.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                portfolio
+              </h4>
+              <p>
+                projet à mettre sur GIThub
+              </p>
+              <a href="projet/portfolio.php">
+                en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/s6.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Bienvenue Formation
+              </h4>
+              <p>
+                à terminer
+              projet à mettre sur GIThub
+              </p>
+              <a href="projet/bienvenueformation.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <br>
+    <div class="container ">
+    
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Mon professionnel
+              </h4>
+              <a href="projet/monprofessionnel.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/immobilier.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Mon particulier
+              </h4>
+              <a href="projet/monparticulier.php">
+                en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/logo_ia.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                IA axa
+              </h4>
+              <a href="projet/iaaxa.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+            <div class="theme-description">
+        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
+    </div>
+        </div>
+
+        <div id="patrimoine-carousel" class="carousel-container">
+        <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+      
+        <h2 class="projet">
+        Gérer le patrimoine informatique
+        </h2>
+        <p>
+        <ul class="projet">
+    <li>Recenser et identifier les ressources numériques</li>
+    <li>Exploiter des référentiels, normes et standards adoptés par le prestataire informatique</li>
+    <li>Mettre en place et vérifier les niveaux d’habilitation associés à un service</li>
+    <li>Vérifier les conditions de la continuité d’un service informatique</li>
+    <li>Gérer des sauvegardes</li>
+    
+</ul>
+        </p>
+      
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Click and Eat
+              </h4>
+              <p>
+              projet à mettre sur GIThub
+              </p>
+              <a href="projet/clickandeat.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+
+       
+
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/s6.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Bienvenue Formation
+              </h4>
+              <p>
+                à terminer
+              projet à mettre sur GIThub
+              </p>
+              <a href="projet/bienvenueformation.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/logo_ia.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                IA axa
+              </h4>
+              <a href="projet/iaaxa.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <br>
+   
+  </section>
+            <div class="theme-description">
+        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
+    </div>
+        </div>
+
+        <div id="assistances-carousel" class="carousel-container">
+        <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+      <h2 class="projet">
+      Répondre aux incidents et aux demandes d'assistances et d'évolution
+        </h2>
+        <p>
+        <ul class="projet">
+    <li>Collecter, suivre et orienter des demandes</li>
+    <li>Traiter des demandes concernant les services réseau et système, applicatifs</li>
+    <li>Traiter des demandes concernant les applications</li>
+    
+    
+</ul>
+        </p>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+       
+
+
+        
+      </div>
+    </div>
+    <br>
+    <div class="container ">
+    
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Mon professionnel
+              </h4>
+              <a href="projet/monprofessionnel.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/immobilier.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Mon particulier
+              </h4>
+              <a href="projet/monparticulier.php">
+                en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+            <div class="theme-description">
+        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
+    </div>
+        </div>
+
+        <div id="présence-carousel" class="carousel-container">
+        <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+      <h2 class="projet">
+      Développer la présence en ligne de l’organisation
+        </h2>
+        <p>
+        <ul class="projet">
+    <li>Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</li>
+    <li>Référencer les services en ligne de l’organisation et mesurer leur visibilité</li>
+    <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
+    
+    
+</ul>
+        </p>
+      </div>
+    </div>
+   
+    <br>
+    <div class="container ">
+    
+      <div class="row">
+      <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/immobilier.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                portfolio
+              </h4>
+              
+              <a href="projet/portfolio.php">
+                en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Mon professionnel
+              </h4>
+              <a href="projet/monprofessionnel.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/immobilier.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Mon particulier
+              </h4>
+              <a href="projet/monparticulier.php">
+                en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+            <div class="theme-description">
+        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
+    </div>
+        </div>
+
+        <div id="projet-carousel" class="carousel-container">
+        <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+      <h2 class="projet">
+      Travailler en mode projet
+        </h2>
+        <p>
+        <ul class="projet">
+    <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
+    <li>Planifier les activités</li>
+    <li>Évaluer les indicateurs de suivi d’un projet et analyser les écarts</li>
+    
+    
+</ul>
+        </p>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Click and Eat
+              </h4>
+              <p>
+              projet à mettre sur GIThub
+              </p>
+              <a href="projet/clickandeat.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/s6.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Bienvenue Formation
+              </h4>
+              <p>
+                à terminer
+              projet à mettre sur GIThub
+              </p>
+              <a href="projet/bienvenueformation.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Mon professionnel
+              </h4>
+              <a href="projet/monprofessionnel.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <br>
+    <div class="container ">
+    
+      <div class="row">
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/immobilier.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Mon particulier
+              </h4>
+              <a href="projet/monparticulier.php">
+                en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+            <div class="theme-description">
+        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
+    </div>
+        </div>
+
+        <div id="disposition-carousel" class="carousel-container">
+        <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+      <h2 class="projet">
+      Mettre à disposition des utilisateurs un service informatique
+        </h2>
+        <p>
+        <ul class="projet">
+    <li>Réaliser les tests d’intégration et d’acceptation d’un service</li>
+    <li>Déployer un service</li>
+    <li>Accompagner les utilisateurs dans la mise en place d’un service</li>
+    
+    
+</ul>
+        </p>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Click and Eat
+              </h4>
+              <p>
+              projet à mettre sur GIThub
+              </p>
+              <a href="projet/clickandeat.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/s6.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Bienvenue Formation
+              </h4>
+              <p>
+                à terminer
+              projet à mettre sur GIThub
+              </p>
+              <a href="projet/bienvenueformation.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/immobilier.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                portfolio
+              </h4>
+              
+              <a href="projet/portfolio.php">
+                en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <br>
     
   </section>
-
-
-  <section class="skills-section">
-        <div class="skills-category">
-            <h2>Langages de Programmation</h2>
-            <ul class="skills-list">
-                <li>
-                <img src="<?php echo $root_path; ?>images/HTML5_logo2.png" alt="logo html">
-                    <h3>HTML</h3>
-                    <p>Création de structures web sémantiques et accessibles</p>
-                </li>
-                <li>
-                    <img src="<?php echo $root_path; ?>images/CSS3_logo2.svg" alt="logo CSS">
-                   
-                    <h3>CSS</h3>
-                    <p>Conception de mises en page modernes et responsives</p>
-                </li>
-                <li>
-                    <img src="<?php echo $root_path; ?>images/logo_javascript.png" alt="logo javascript">
-                    <h3>JavaScript</h3>
-                    <p>Développement d'interactions dynamiques côté client</p>
-                </li>
-                <li>
-                    <img src="<?php echo $root_path; ?>images/PHP_logo2.png" alt="logo php">
-              
-                    <h3>PHP</h3>
-                    <p>Développement côté serveur et logique métier</p>
-                </li>
-                <li>
-                    <img src="<?php echo $root_path; ?>images/logo_sql.png" alt="logo git hub">
-                    
-                    <h3>SQL</h3>
-                    <p>Requêtes et manipulation de bases de données</p>
-                </li>
-            </ul>
+            <div class="theme-description">
+        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
+    </div>
         </div>
 
-        <div class="skills-category">
-            <h2>Frameworks et Bibliothèques</h2>
-            <ul class="skills-list">
-                <li>
-                    
-                    <img src="<?php echo $root_path; ?>images/Laravel_Logo2.svg" alt="logo laravel">
-                    <h3>LARAVEL</h3>
-                    <p>Développement d'applications web performantes</p>
-                </li>
-                <li>
-                    
-                    <img src="<?php echo $root_path; ?>images/React_logo2.png" alt="logo REACT">
-                    <h3>React</h3>
-                    <p>Création de mises en page responsives</p>
-                </li>
-                <li>
-              
-                    <img src="<?php echo $root_path; ?>images/Bootstrap_logo2.png" alt="logo boostrap">
-                    <h3>Bootstrap</h3>
-                    <p>Création de mises en page responsives</p>
-                </li>
-            </ul>
+        <div id="développement-carousel" class="carousel-container">
+        <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+      <h2 class="projet">
+      Organiser son développement professionnel
+        </h2>
+        <p>
+        <ul class="projet">
+    <li>Mettre en place son environnement d’apprentissage personnel</li>
+    <li>Mettre en œuvre des outils et stratégies de veille informationnelle</li>
+    <li>Gérer son identité professionnelle</li>
+    <li>Développer son projet professionnel</li>
+    
+    
+</ul>
+        </p>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="row">
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/calculatrice.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Click and Eat
+              </h4>
+              <p>
+              projet à mettre sur GIThub
+              </p>
+              <a href="projet/clickandeat.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div class="skills-category">
-            <h2>Bases de Données</h2>
-            <ul class="skills-list">
-                <li>
-                    
-                    <img src="<?php echo $root_path; ?>images/MySQL_logo.png" alt="logo MySQL">
-                    <h3>MySQL</h3>
-                    <p>Gestion et optimisation de bases de données</p>
-                </li>
-                <li>
-                    <img src="<?php echo $root_path; ?>images/PhpMyAdmin_logo2.png" alt="logo PHPmyadmin">
-                    <h3>phpMyAdmin</h3>
-                    <p>Administration et gestion de bases de données</p>
-                </li>
-            </ul>
+        
+
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/s6.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+                Bienvenue Formation
+              </h4>
+              <p>
+                à terminer
+              projet à mettre sur GIThub
+              </p>
+              <a href="projet/bienvenueformation.php">
+              en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
         </div>
 
-        <div class="skills-category">
-            <h2>Outils de Développement</h2>
-            <ul class="skills-list">
-                <li>
-                    <img src="<?php echo $root_path; ?>images/Visual_Studio_Code_logo.png" alt="logo vscode">
-                    <h3>Visual Studio Code</h3>
-                    <p>Environnement de développement polyvalent</p>
-                </li>
-                <li> 
-                    <img src="<?php echo $root_path; ?>images/Sublime_text_logo.png" alt="logo sublim text">
-                    <h3>sublim text</h3>
-                    <p>IDE pour développement Java</p>
-                </li>
-            </ul>
+        <div class="col-md-6 col-lg-4">
+          <div class="box maquette ">
+            <div class="img-box">
+              <img src="images/immobilier.png" alt="">
+            </div>
+            <div class="detail-box boxi">
+              <h4>
+              portfolio
+              </h4>
+              <p>
+                projet à mettre sur GIThub
+              </p>
+              <a href="projet/portfolio.php">
+                en savoir plus
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <br>
+  
+  </section>
+            <div class="theme-description">
+        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
+    </div>
         </div>
 
-        <div class="skills-category">
-            <h2>Gestion de Projet</h2>
-            <ul class="skills-list">
-                <li>
-                    <img src="<?php echo $root_path; ?>images/GitHub_Logo_white.png" alt="logo git hub">
-                    <h3>GitHub</h3>
-                    <p>Contrôle de version et collaboration</p>
-                </li>
-            </ul>
-        </div>
+    </div>
+</section>
+    
+    <script>
+        function showCarousel(theme) {
+            // Cacher tous les carrousels
+            ['tout', 'patrimoine', 'assistances','présence', 'projet', 'disposition', 'développement'].forEach(t => {
+                document.getElementById(`${t}-carousel`).classList.remove('active');
+                document.querySelector(`button[onclick="showCarousel('${t}')"]`).classList.remove('active');
+            });
 
-        <div class="skills-category">
-            <h2>Modélisation et Conception</h2>
-            <ul class="skills-list">
-                <li>
-                    <h3>MCD/MLD</h3>
-                    <p>Modélisation conceptuelle et logique de données</p>
-                </li>
-                <li>
-                    <h3>UML</h3>
-                    <p>Modélisation et conception de systèmes logiciels</p>
-                </li>
-            </ul>
-        </div>
-
-        <div class="skills-category">
-            <h2>Hébergement et Serveurs</h2>
-            <ul class="skills-list">
-                
-                
-                <li>
-                    <img src="<?php echo $root_path; ?>images/xampp_logo.png" alt=" logo xampp">
-                    <h3>XAMPP</h3>
-                    <p>Environnement de développement local</p>
-                </li>
-                
-            </ul>
-        </div>
-    </section>
-  <!-- price section -->
-
-  <!-- client section -->
-
-  <?php 
-  include_once "footer.php";
-  ?>
-
-  <!-- end info section -->
-
-
-
+            // Afficher le carrousel sélectionné
+            document.getElementById(`${theme}-carousel`).classList.add('active');
+            document.querySelector(`button[onclick="showCarousel('${theme}')"]`).classList.add('active');
+        }
+    </script>
 
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
@@ -211,7 +788,11 @@ include_once "header.php";
   <!-- custom js -->
   <script src="js/custom.js"></script>
 
+  <script src="js/veille-technologique.js"></script>
+
 
 </body>
-
+<?php 
+  include_once "footer.php";
+  ?>
 </html>

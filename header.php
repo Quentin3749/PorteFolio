@@ -12,7 +12,7 @@ $page_actuelle = basename($_SERVER['PHP_SELF']);
   <!-- Métas mobiles -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Métas du site -->
-  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <link rel="icon" href="images/eclaireur.png" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="auteur" content="" />

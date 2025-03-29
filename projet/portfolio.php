@@ -7,7 +7,7 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <link rel="icon" href="../images/fevicon.png" type="image/gif" />
+  <link rel="icon" href="../images/eclereur1" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
@@ -52,7 +52,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="container">
       <div class="heading_container heading_center">
         <h2 class="projet project">
-          SMartciné
+          Portfolio
         </h2>
       </div>
     </div>

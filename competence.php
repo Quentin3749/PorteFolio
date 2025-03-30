@@ -107,7 +107,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/immobilier.png" alt="">
+              <img src="images/eclaireur.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -127,7 +127,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/s6.png" alt="">
+              <img src="images/ecole.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -154,7 +154,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
+              <img src="images/professionnels.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -171,7 +171,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/immobilier.png" alt="">
+              <img src="images/particulier.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -205,9 +205,7 @@ include_once "header.php";
       </div>
     </div>
   </section>
-            <div class="theme-description">
-        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
-    </div>
+           
         </div>
 
         <div id="patrimoine-carousel" class="carousel-container">
@@ -259,7 +257,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/s6.png" alt="">
+              <img src="images/ecole.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -301,9 +299,7 @@ include_once "header.php";
     <br>
    
   </section>
-            <div class="theme-description">
-        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
-    </div>
+           
         </div>
 
         <div id="assistances-carousel" class="carousel-container">
@@ -339,7 +335,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
+              <img src="images/professionnels.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -356,7 +352,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/immobilier.png" alt="">
+              <img src="images/particulier.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -374,9 +370,7 @@ include_once "header.php";
       </div>
     </div>
   </section>
-            <div class="theme-description">
-        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
-    </div>
+          
         </div>
 
         <div id="présence-carousel" class="carousel-container">
@@ -405,7 +399,7 @@ include_once "header.php";
       <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/immobilier.png" alt="">
+              <img src="images/eclaireur.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -422,7 +416,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
+              <img src="images/professionnels.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -439,7 +433,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/immobilier.png" alt="">
+              <img src="images/particulier.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -457,9 +451,7 @@ include_once "header.php";
       </div>
     </div>
   </section>
-            <div class="theme-description">
-        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
-    </div>
+           
         </div>
 
         <div id="projet-carousel" class="carousel-container">
@@ -508,7 +500,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/s6.png" alt="">
+              <img src="images/ecole.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -528,7 +520,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
+              <img src="images/professionnels.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -553,7 +545,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/immobilier.png" alt="">
+              <img src="images/particulier.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -571,9 +563,7 @@ include_once "header.php";
       </div>
     </div>
   </section>
-            <div class="theme-description">
-        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
-    </div>
+           
         </div>
 
         <div id="disposition-carousel" class="carousel-container">
@@ -623,7 +613,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/s6.png" alt="">
+              <img src="images/ecole.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -643,7 +633,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/immobilier.png" alt="">
+              <img src="images/eclaireur.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -663,9 +653,7 @@ include_once "header.php";
     <br>
     
   </section>
-            <div class="theme-description">
-        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
-    </div>
+           
         </div>
 
         <div id="développement-carousel" class="carousel-container">
@@ -716,7 +704,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/s6.png" alt="">
+              <img src="images/ecole.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -737,7 +725,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/immobilier.png" alt="">
+              <img src="images/eclaireur.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -759,9 +747,7 @@ include_once "header.php";
     <br>
   
   </section>
-            <div class="theme-description">
-        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
-    </div>
+           
         </div>
 
     </div>

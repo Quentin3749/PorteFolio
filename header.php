@@ -69,14 +69,7 @@ $page_actuelle = basename($_SERVER['PHP_SELF']);
           </li>
           <li class="nav-item <?php echo ($page_actuelle == 'competence.php') ? 'actif' : ''; ?> competence highlight-white">
             <a class="nav-link" href="<?php echo $root_path; ?>competence.php">Compétences</a>
-            <ul class="sub_menu">
-              <li>Gestion du patrimoine informatique</li>
-              <li>Répondre aux incidents et aux demandes d'assistance et d'évolution</li>
-              <li>Développer la présence en ligne de l'organisation</li>
-              <li>Travailler en mode projet</li>
-              <li>Mettre à disposition des utilisateurs un service informatique</li>
-              <li>Organiser son développement professionnel</li>
-            </ul>
+            
           </li>
           <li class="nav-item <?php echo ($page_actuelle == 'entreprise.php') ? 'actif' : ''; ?> highlight-white">
             <a class="nav-link" href="<?php echo $root_path; ?>entreprise.php">Entreprise</a>
@@ -84,8 +77,8 @@ $page_actuelle = basename($_SERVER['PHP_SELF']);
           <li class="nav-item <?php echo ($page_actuelle == 'projet.php') ? 'actif' : ''; ?> highlight-white">
             <a class="nav-link" href="<?php echo $root_path; ?>projet.php">Projets</a>
           </li>
-          <li class="nav-item <?php echo ($page_actuelle == 'mission.php') ? 'actif' : ''; ?> highlight-white">
-            <a class="nav-link" href="<?php echo $root_path; ?>mission.php">Missions</a>
+          <li class="nav-item <?php echo ($page_actuelle == 'travaux.php') ? 'actif' : ''; ?> highlight-white">
+            <a class="nav-link" href="<?php echo $root_path; ?>travaux.php">travaux</a>
           </li>
           <li class="nav-item <?php echo ($page_actuelle == 'veille.php') ? 'actif' : ''; ?> highlight-white">
             <a class="nav-link" href="<?php echo $root_path; ?>veille.php">Veille</a>

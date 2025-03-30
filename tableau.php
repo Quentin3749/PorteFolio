@@ -53,7 +53,7 @@ include_once "header.php";
   <div class="container">
     <div class="heading_container heading_center">
       <h1 class="projet">
-        tableau de compétences
+        Tableau de compétences
       </h1>
     </div>
   </div>

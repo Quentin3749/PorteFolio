@@ -37,6 +37,172 @@ $root_path = "../"; // Chemin pour remonter à la racine
 include_once "../header.php"; // Inclut le header depuis la racine
 ?>
 
+<style>
+    .projet-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .projet-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .projet-image {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .projet-image img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    
+    .descriptif-section {
+      background-color:rgba(22, 8, 82, 0.91);
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 40px;
+    }
+    
+    .descriptif-title {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 32px;
+      color: #333;
+      text-transform: uppercase;
+    }
+    
+    .text-section {
+      margin-bottom: 40px;
+      padding: 0 20px;
+    }
+    
+    .text-section h3 {
+      color: #007bff;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #f0f0f0;
+      font-size: 24px;
+    }
+    
+    .text-section p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    
+    .text-section ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+    
+    .text-section ul li {
+      padding: 6px 0;
+      position: relative;
+      padding-left: 25px;
+    }
+    
+    .text-section ul li:before {
+      content: "•";
+      color: #007bff;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+      font-size: 20px;
+    }
+    
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    
+    .descriptif-card {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    
+    .descriptif-card h3 {
+      color: #007bff;
+      margin-bottom: 15px;
+      text-align: center;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #f0f0f0;
+    }
+    
+    .descriptif-card ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    
+    .descriptif-card ul li {
+      padding: 8px 0;
+      position: relative;
+      padding-left: 25px;
+    }
+    
+    .descriptif-card ul li:before {
+      content: "•";
+      color: #007bff;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+      font-size: 20px;
+    }
+    
+    .tools-icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 15px;
+    }
+    
+    .tools-icons img {
+      height: 50px;
+      width: auto;
+    }
+    
+    .project-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    
+    .project-link {
+      display: inline-block;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      padding: 12px 30px;
+      border-radius: 30px;
+      font-weight: 500;
+      transition: background-color 0.3s;
+    }
+    
+    .project-link:hover {
+      background-color: #0056b3;
+    }
+    .text-section p {
+    color: white;
+}
+
+.text-section ul li {
+    color: white;
+}
+
+/* Keep headings in their original color */
+.text-section h3 {
+    /* This maintains the original color (#007bff) for the headings */
+}
+</style>
+
   <div class="hero_area">
     <!-- header section starts -->
     
@@ -52,7 +218,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="container">
       <div class="heading_container heading_center">
         <h2 class="projet project">
-          Click and eat
+          Bienvenue Formation
         </h2>
       </div>
     </div>
@@ -67,32 +233,64 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="container">
       <div class="heading_container heading_center">
         <h1 class="descriptifs">
-          descriptifs
+          Descriptifs
         </h1>
       </div>
-      <div class="cadre">
-              
-                <div class="detail-box encadrement">
-                
-                <p><strong><h3 class="centered-text">Étapes réalisées :</h3></strong></p>
-                <p class="centered-text">Conception du squelette de la page en HTML</p>
-                <p class="centered-text">Stylisation avec CSS</p>
-                <p><strong><h3 class="centered-text">Langages utilisés : </h3></strong></p>
-                <div class="image-container">
-                <img src="<?php echo $root_path; ?>images/HTML5_logo.png" alt="logo html">
-                <img src="../images/CSS3_logo.png" alt="logo css">
-                </div>
-                <p><strong><h3 class="centered-text">Compétences développées :</h3></strong> </p>
-                <p class="centered-text">Maîtrise des bases du HTML</p>
-                <p class="centered-text">Maîtrise du CSS </p>
-
-
-                 
-                </div>
-                  <div class="btn-box">
-                  
-                  </div>
-                </div>
+      <div class="descriptif-section">
+  <!-- Text Sections (without cards) -->
+  <div class="text-section">
+    <h3>Contexte</h3>
+    <p>Projet de création d'une maquette web d'accueil pour "Bienvenue Formation"</p>
+    <p>Objectif: Reproduire une interface utilisateur professionnelle</p>
+    <p>Projet réalisé dans le cadre du BTS SIO</p>
+  </div>
+  
+  <div class="text-section">
+    <h3>Liste des tâches</h3>
+    <ul>
+      <li>Analyse de la maquette originale</li>
+      <li>Conception du squelette de la page en HTML</li>
+      <li>Stylisation avec CSS</li>
+      <li>Tests de compatibilité sur différents navigateurs</li>
+      <li>Mise en ligne du résultat final</li>
+    </ul>
+  </div>
+  
+  <!-- Card Grid (for the sections that remain in cards) -->
+  <div class="card-grid">
+    <div class="descriptif-card">
+      <h3>Outils utilisés</h3>
+      <ul>
+        <li>Éditeur de code VSCode</li>
+        <li>Git pour le versionnage</li>
+        <li>GitHub Pages pour l'hébergement</li>
+      </ul>
+      <div class="tools-icons">
+        <img src="../images/HTML5_logo.png" alt="logo html">
+        <img src="../images/CSS3_logo.png" alt="logo css">
+      </div>
+    </div>
+    
+    <div class="descriptif-card">
+      <h3>Compétences développées</h3>
+      <ul>
+        <li>Maîtrise des bases du HTML</li>
+        <li>Maîtrise du CSS</li>
+        <li>Responsive design</li>
+        <li>Versionnage avec Git</li>
+        <li>Déploiement sur GitHub Pages</li>
+      </ul>
+    </div>
+    
+    <div class="descriptif-card">
+      <h3>Documentation</h3>
+      <ul>
+        <li>Documentation HTML/CSS sur MDN Web Docs</li>
+        <li>Guide de bonnes pratiques pour l'accessibilité web</li>
+        <li>Documentation GitHub pour le déploiement</li>
+      </ul>
+    </div>
+  </div>
       <div class="price_container ">
         <div class="box">
           

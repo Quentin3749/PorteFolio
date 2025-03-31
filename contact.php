@@ -49,6 +49,13 @@
   .contact_section .btn_box .btn {
     border-radius: 30px;
   }
+
+  .contact_section #name,
+  .contact_section #email {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+  }
 </style>
 </style>
 

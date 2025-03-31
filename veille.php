@@ -59,7 +59,7 @@ include_once "header.php";
                <h2>
                - Qu'est-ce que la veille technologique ? <br>
                </h2>
-               <p class="about_text"> La veille technologique à pour but surveiller les évolutions techniques et les innovations dans un secteur d'activité donné. Elle englobe la surveillance, la collecte, le partage et la diffusion d'informations permettant d'anticiper ou de s'informer sur des changements en matière de recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, et innovation de fabrication. Cela permet d'évaluer leur impact sur l'environnement et l'organisation.
+               <p class="about_text" style="text-align: justify;" > La veille technologique consiste à surveiller les avancées et innovations dans un domaine spécifique. Elle implique la collecte, l’analyse et la diffusion d’informations stratégiques sur la recherche, les brevets, les nouveaux produits, les matériaux, les procédés et les concepts émergents. Son objectif est d’anticiper les évolutions du secteur, d’évaluer leur impact sur l’environnement et l’organisation, et d’adapter les stratégies en conséquence.
                <br><br/>
               
                </p>

@@ -15,6 +15,7 @@
 
   <title>Portfolio BTS SIO | Quentin ETOURMY</title>
 
+
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
@@ -28,17 +29,48 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/new.css" rel="stylesheet" />
+
 </head>
 
-<body class="sub_page">
+<style>
+  /* CSS pour rendre les textes et icônes spécifiques en blanc sur la page contact */
+  .contact_section .heading_container h2,
+  .contact_section .social-links h4,
+  .contact_section .email h4,
+  .contact_section .phone h4,
+  .contact_section .address h4,
+  .contact_section .email i,
+  .contact_section .phone i,
+  .contact_section .form-group label {
+    color: white !important;
+  }
 
-<?php 
-$root_path = "";
+  .contact_section .btn_box .btn {
+    border-radius: 30px;
+  }
+</style>
+</style>
+
+<body class="tableau-competences-page">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <?php 
+    $root_path = "";
 include_once "header.php";
 ?>
+    <!-- end header section -->
+    <!-- slider section -->
+    
+    <!-- end slider section -->
+ 
 
-  <!-- contact section -->
-  <section class="contact_section layout_padding">
+  <!-- service section -->
+
+  
+
+<section class="contact_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
         <h2>Contactez-moi</h2>
@@ -115,19 +147,48 @@ include_once "header.php";
     </div>
   </section>
 
-<?php 
-include_once "footer.php";
-?>
+
+  <!-- end service section -->
+
+  <!-- about section -->
+
+  
+
+  <!-- end about section -->
 
 
+  <!-- server section -->
+
+ 
+
+  <!-- end server section -->
+
+  <!-- price section -->
+
+  
+
+  <!-- price section -->
+
+  <!-- client section -->
+
+  <?php 
+  include_once "footer.php";
+  ?>
+
+  <!-- end info section -->
 
 
-<!-- jQuery -->
-<script src="js/jquery-3.4.1.min.js"></script>
-<!-- Bootstrap JS -->
-<script src="js/bootstrap.js"></script>
-<!-- Custom JS -->
-<script src="js/custom.js"></script>
+  
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
 
 </body>
+
 </html>

@@ -83,7 +83,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
                 <div class="image-container">
                 <img src="<?php echo $root_path; ?>images/HTML5_logo.png" alt="logo html">
                 <img src="../images/CSS3_logo.png" alt="logo css">
-                <img src="<?php echo $root_path; ?>images/logo_javascript2.png" alt="logo html">
+                <img src="<?php echo $root_path; ?>images/logo_javascript1.png" alt="logo html">
                 </div>
                 <p><strong><h3 class="centered-text">Compétences développées :</h3></strong> </p>
                 <p class="centered-text">- Maîtrise des bases du HTML</p>

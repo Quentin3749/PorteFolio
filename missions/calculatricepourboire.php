@@ -78,12 +78,11 @@ include_once "../header.php"; // Inclut le header depuis la racine
                 <p class="centered-text">- Conception du squelette de la page en HTML</p>
                 <p class="centered-text">- Stylisation avec CSS</p>
                 <p class="centered-text">- Calcul et affichage du tableau d’amortissement avec javascript</p>
-                <p class="centered-text">- Export en PDF avec javascript</p>
                 <p><strong><h3 class="centered-text">Langages utilisés : </h3></strong></p>
                 <div class="image-container">
                 <img src="<?php echo $root_path; ?>images/HTML5_logo.png" alt="logo html">
                 <img src="../images/CSS3_logo.png" alt="logo css">
-                <img src="<?php echo $root_path; ?>images/logo_javascript2.png" alt="logo html">
+                <img src="<?php echo $root_path; ?>images/logo_javascript1.png" alt="logo html">
                 </div>
                 <p><strong><h3 class="centered-text">Compétences développées :</h3></strong> </p>
                 <p class="centered-text">- Maîtrise des bases du HTML</p>

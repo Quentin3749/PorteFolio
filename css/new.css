@@ -743,3 +743,8 @@
   font-style: italic;
   margin-top: -10px; /* Pour rapprocher la définition du paragraphe précédent */
 }
+
+/* Cible uniquement les titres <h5> de cette page */
+body.portfolio_page h5 {
+  color: #f1c232; /* Couleur jaune foncé */
+}

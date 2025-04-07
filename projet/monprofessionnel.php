@@ -201,6 +201,11 @@ include_once "../header.php"; // Inclut le header depuis la racine
 .text-section h3 {
     /* This maintains the original color (#007bff) for the headings */
 }
+
+/* Cible uniquement les titres <h5> de cette page */
+ h5 {
+  color: #f1c232; /* Couleur jaune foncé */
+}
 </style>
 
   <div class="hero_area">
@@ -224,7 +229,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
     </div>
     <div class="container ">
       <div class="row carreau">
-              <img src="../images/netflixmaquette.png" alt="netflix" >
+              <img src="<?php echo $root_path; ?>images/monpro.PNG" alt="monprofessionnel">
       </div>
     </div>
   </section>
@@ -240,9 +245,9 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <!-- Text Sections (without cards) -->
   <div class="text-section">
     <h3>Contexte</h3>
-    <p>Projet de création d'une maquette web d'accueil pour "Bienvenue Formation"</p>
-    <p>Objectif: Reproduire une interface utilisateur professionnelle</p>
-    <p>Projet réalisé dans le cadre du BTS SIO</p>
+    <p>Ce projet avait pour objectif de refondre les pages d’une partie du site web interne destiné a des collaborateurs d'agence, afin de le rendre plus intuitif, plus agréable visuellement et plus facile à utiliser au quotidien.</p>
+    <p>Afin de permettre aux utilisateurs des pages de nous faire part de leurs suggestions et de signaler des modifications à apporter aux informations importantes, nous avons mis en place une adresse mail dédiée pour centraliser et traiter toutes les demandes.</p>
+    <p>Cette démarche a permis de moderniser l’interface et de mieux répondre aux attentes des utilisateurs.</p>
   </div>
   
   <div class="text-section">
@@ -253,6 +258,20 @@ include_once "../header.php"; // Inclut le header depuis la racine
       <li>Stylisation avec CSS</li>
       <li>Tests de compatibilité sur différents navigateurs</li>
       <li>Mise en ligne du résultat final</li>
+    </ul>
+  </div>
+
+  <div class="text-section">
+    <h3>Compétences développées</h3>
+    <ul>
+    <h5>Répondre aux incidents et aux demandes d’assistance et d’évolution</h5>
+    <li>Collecter, suivre et orienter des demandes </li>
+    <li>Traiter des demandes concernant les applications </li>
+    <h5>Développer la présence en ligne de l’organisation</h5>
+      <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
+      <h5>Travailler en mode projet</h5>
+      <li>analyser les objectifs et les modalités d’organisation d’un projet</li>
+      <li>Planifier les activités</li>
     </ul>
   </div>
   
@@ -268,24 +287,16 @@ include_once "../header.php"; // Inclut le header depuis la racine
       <div class="tools-icons">
         <img src="../images/HTML5_logo.png" alt="logo html">
         <img src="../images/CSS3_logo.png" alt="logo css">
+        <img src="<?php echo $root_path; ?>images/logo_javascript1.png" alt="logo html">
       </div>
     </div>
     
-    <div class="descriptif-card">
-      <h3>Compétences développées</h3>
-      <ul>
-        <li>Maîtrise des bases du HTML</li>
-        <li>Maîtrise du CSS</li>
-        <li>Responsive design</li>
-        <li>Versionnage avec Git</li>
-        <li>Déploiement sur GitHub Pages</li>
-      </ul>
-    </div>
+    
     
     <div class="descriptif-card">
       <h3>Documentation</h3>
       <ul>
-        <li>Documentation HTML/CSS sur MDN Web Docs</li>
+        <li>Prise en main du site</li>
         <li>Guide de bonnes pratiques pour l'accessibilité web</li>
         <li>Documentation GitHub pour le déploiement</li>
       </ul>
@@ -296,17 +307,13 @@ include_once "../header.php"; // Inclut le header depuis la racine
           
           <div class="btn-box">
             <a href="https://quentin3749.github.io/projet-netflix/" target="_blank">
-              résultat final
+              visuel
             </a>
           </div>
         </div>
         <div class="box">
          
-          <div class="btn-box">
-            <a href="https://github.com/Quentin3749/projet-netflix" target="_blank">
-              visuel du code
-            </a>
-          </div>
+          
         </div>
       </div>
     </div>

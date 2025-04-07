@@ -92,9 +92,7 @@ include_once "header.php";
               <h4>
                 Click and Eat
               </h4>
-              <p>
-              projet à mettre sur GIThub
-              </p>
+            
               <a href="projet/clickandeat.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -113,9 +111,7 @@ include_once "header.php";
               <h4>
                 portfolio
               </h4>
-              <p>
-                projet à mettre sur GIThub
-              </p>
+              
               <a href="projet/portfolio.php">
                 en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -133,10 +129,7 @@ include_once "header.php";
               <h4>
                 Bienvenue Formation
               </h4>
-              <p>
-                à terminer
-              projet à mettre sur GIThub
-              </p>
+             
               <a href="projet/bienvenueformation.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -240,9 +233,7 @@ include_once "header.php";
               <h4>
                 Click and Eat
               </h4>
-              <p>
-              projet à mettre sur GIThub
-              </p>
+              
               <a href="projet/clickandeat.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -263,10 +254,7 @@ include_once "header.php";
               <h4>
                 Bienvenue Formation
               </h4>
-              <p>
-                à terminer
-              projet à mettre sur GIThub
-              </p>
+             
               <a href="projet/bienvenueformation.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -506,10 +494,7 @@ include_once "header.php";
               <h4>
                 Bienvenue Formation
               </h4>
-              <p>
-                à terminer
-              projet à mettre sur GIThub
-              </p>
+            
               <a href="projet/bienvenueformation.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -596,9 +581,7 @@ include_once "header.php";
               <h4>
                 Click and Eat
               </h4>
-              <p>
-              projet à mettre sur GIThub
-              </p>
+              
               <a href="projet/clickandeat.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -619,10 +602,7 @@ include_once "header.php";
               <h4>
                 Bienvenue Formation
               </h4>
-              <p>
-                à terminer
-              projet à mettre sur GIThub
-              </p>
+             
               <a href="projet/bienvenueformation.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -687,9 +667,7 @@ include_once "header.php";
               <h4>
                 Click and Eat
               </h4>
-              <p>
-              projet à mettre sur GIThub
-              </p>
+             
               <a href="projet/clickandeat.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -710,10 +688,7 @@ include_once "header.php";
               <h4>
                 Bienvenue Formation
               </h4>
-              <p>
-                à terminer
-              projet à mettre sur GIThub
-              </p>
+             
               <a href="projet/bienvenueformation.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -731,9 +706,7 @@ include_once "header.php";
               <h4>
               portfolio
               </h4>
-              <p>
-                projet à mettre sur GIThub
-              </p>
+             
               <a href="projet/portfolio.php">
                 en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>

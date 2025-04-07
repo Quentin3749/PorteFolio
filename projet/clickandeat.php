@@ -240,19 +240,32 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <!-- Text Sections (without cards) -->
   <div class="text-section">
     <h3>Contexte</h3>
-    <p>Projet de création d'une maquette web d'accueil pour "Bienvenue Formation"</p>
-    <p>Objectif: Reproduire une interface utilisateur professionnelle</p>
-    <p>Projet réalisé dans le cadre du BTS SIO</p>
+    <p></p>
+    <p>Dans le cadre du BTS SIO option SLAM, le portfolio a été conçu comme un espace numérique permettant de retracer les différentes expériences professionnelles et les compétences techniques acquises. Il a pour fonction de rassembler les projets les plus significatifs menés en formation ou en entreprise.</p>
+    <p>Il sert également à mettre en lumière les compétences techniques à travers des projets concrets, en montrant comment les outils, langages et méthodes de développement sont appliqués en situation réelle. Une partie est consacrée à la veille technologique, afin de montrer la capacité à rester informé des dernières évolutions, en utilisant des sources fiables et des outils adaptés.</p>
   </div>
   
   <div class="text-section">
     <h3>Liste des tâches</h3>
     <ul>
-      <li>Analyse de la maquette originale</li>
-      <li>Conception du squelette de la page en HTML</li>
-      <li>Stylisation avec CSS</li>
-      <li>Tests de compatibilité sur différents navigateurs</li>
-      <li>Mise en ligne du résultat final</li>
+      <li>🎨 Adaptation graphique d’un modèle existant pour correspondre à l’identité du portfolio.</li>
+      <li>🧩 Organisation des différentes sections : présentation, projets, entreprises, compétences, veille.</li>
+      <li>🗂️ Mise en place d’une structure de pages cohérente.</li>
+      <li>📂 Intégration des projets réels avec détails techniques, outils utilisés et objectifs.</li>
+      <li>📡 Mise en ligne du portfolio via une solution d’hébergement web.</li>
+    </ul>
+  </div>
+
+  <div class="text-section">
+    <h3>Compétences développées</h3>
+    <ul>
+    <h5>Développer la présence en ligne de l’organisation</h5>
+    <li>Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</li>
+    <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
+    <h5>Mettre à disposition des utilisateurs un service informatique</h5>
+      <li>Déployer un service </li>
+      <h5>Organiser son développement professionnel</h5>
+      <li>Gérer son identité professionnelle </li>
     </ul>
   </div>
   
@@ -261,26 +274,23 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="descriptif-card">
       <h3>Outils utilisés</h3>
       <ul>
-        <li>Éditeur de code VSCode</li>
-        <li>Git pour le versionnage</li>
-        <li>GitHub Pages pour l'hébergement</li>
+        <li>Visual Studio Code</li>
+        <li>GitHub pour l'hébergement</li>
       </ul>
       <div class="tools-icons">
         <img src="../images/HTML5_logo.png" alt="logo html">
         <img src="../images/CSS3_logo.png" alt="logo css">
+        
+      </div>
+      <div class="tools-icons">
+      <img src="<?php echo $root_path; ?>images/Laravel_Logo2.svg" alt="logo PHP">
+        <img src="<?php echo $root_path; ?>images/Bootstrap_logo.png" alt="logo PHP">
+        
       </div>
     </div>
     
-    <div class="descriptif-card">
-      <h3>Compétences développées</h3>
-      <ul>
-        <li>Maîtrise des bases du HTML</li>
-        <li>Maîtrise du CSS</li>
-        <li>Responsive design</li>
-        <li>Versionnage avec Git</li>
-        <li>Déploiement sur GitHub Pages</li>
-      </ul>
-    </div>
+  
+  
     
     <div class="descriptif-card">
       <h3>Documentation</h3>
@@ -295,7 +305,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
         <div class="box">
           
           <div class="btn-box">
-            <a href="https://quentin3749.github.io/projet-netflix/" target="_blank">
+            <a href="https://portfolio.qetourmy.com/index.php" target="_blank">
               résultat final
             </a>
           </div>
@@ -303,7 +313,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
         <div class="box">
          
           <div class="btn-box">
-            <a href="https://github.com/Quentin3749/projet-netflix" target="_blank">
+            <a href="https://github.com/Quentin3749/PorteFolio" target="_blank">
               visuel du code
             </a>
           </div>

@@ -274,18 +274,12 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="descriptif-card">
       <h3>Outils utilisés</h3>
       <ul>
-        <li>Visual Studio Code</li>
-        <li>GitHub pour l'hébergement</li>
-      </ul>
-      <div class="tools-icons">
-        <img src="../images/HTML5_logo.png" alt="logo html">
-        <img src="../images/CSS3_logo.png" alt="logo css">
-        <img src="<?php echo $root_path; ?>images/logo_javascript.png" alt="logo js">
-      </div>
-      <div class="tools-icons">
-        <img src="<?php echo $root_path; ?>images/PHP-logo.png" alt="logo PHP">
-        <img src="<?php echo $root_path; ?>images/Bootstrap_logo.png" alt="logo PHP">
-      </div>
+  <li>🧰 Environnement de développement : Visual Studio Code</li>
+  <li>🌐 Hébergement web : OVH</li>
+  <li>🎨 Technologies front-end : HTML, CSS, Javascript</li>
+  <li>📂 Gestion de versions : GitHub</li>
+</ul>
+      
     </div>
     
   

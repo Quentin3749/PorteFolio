@@ -86,7 +86,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
+              <img src="images/logo_click.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -227,7 +227,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
+              <img src="images/logo_click.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -465,7 +465,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
+              <img src="images/logo_click.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -575,7 +575,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
+              <img src="images/logo_click.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
@@ -661,7 +661,7 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
+              <img src="images/logo_click.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>

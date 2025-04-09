@@ -201,6 +201,10 @@ include_once "../header.php"; // Inclut le header depuis la racine
 .text-section h3 {
     /* This maintains the original color (#007bff) for the headings */
 }
+
+h5 {
+  color: #f1c232; /* Couleur jaune foncé */
+}
 </style>
 
   <div class="hero_area">
@@ -224,7 +228,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
     </div>
     <div class="container ">
       <div class="row carreau">
-              <img src="../images/netflixmaquette.png" alt="netflix" >
+              <img src="../images/clickandeat.png" alt="netflix" >
       </div>
     </div>
   </section>
@@ -240,32 +244,31 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <!-- Text Sections (without cards) -->
   <div class="text-section">
     <h3>Contexte</h3>
-    <p></p>
-    <p>Dans le cadre du BTS SIO option SLAM, le portfolio a été conçu comme un espace numérique permettant de retracer les différentes expériences professionnelles et les compétences techniques acquises. Il a pour fonction de rassembler les projets les plus significatifs menés en formation ou en entreprise.</p>
-    <p>Il sert également à mettre en lumière les compétences techniques à travers des projets concrets, en montrant comment les outils, langages et méthodes de développement sont appliqués en situation réelle. Une partie est consacrée à la veille technologique, afin de montrer la capacité à rester informé des dernières évolutions, en utilisant des sources fiables et des outils adaptés.</p>
+    <p>Dans le cadre du BTS SIO option SLAM, Click & Eat a été développé comme une application web complète destinée à la gestion multi-restaurants. Cette solution permet aux restaurateurs de créer et administrer leurs cartes, de gérer les commandes en ligne, ainsi que de proposer un système de réservation fluide et efficace pour leurs clients.</p>
   </div>
   
   <div class="text-section">
-    <h3>Liste des tâches</h3>
-    <ul>
-      <li>🎨 Adaptation graphique d’un modèle existant pour correspondre à l’identité du portfolio.</li>
-      <li>🧩 Organisation des différentes sections : présentation, projets, entreprises, compétences, veille.</li>
-      <li>🗂️ Mise en place d’une structure de pages cohérente.</li>
-      <li>📂 Intégration des projets réels avec détails techniques, outils utilisés et objectifs.</li>
-      <li>📡 Mise en ligne du portfolio via une solution d’hébergement web.</li>
-    </ul>
-  </div>
-
+  <h3>Liste des tâches</h3>
+  <ul>
+    <li>🗃️ Conception de la base de données MySQL pour la gestion des restaurants, des menus, des réservations et des utilisateurs.</li>
+    <li>🖥️ Développement d’une interface responsive, moderne et intuitive pour une expérience utilisateur optimale.</li>
+    <li>🔐 Mise en place d’un système d’authentification sécurisé avec gestion des rôles : client, restaurateur, administrateur.</li>
+    <li>🛠️ Création d’un espace administrateur permettant la gestion complète des établissements, des utilisateurs et des contenus.</li>
+    <li>⚙️  Réalisation de tests fonctionnels et optimisation des performances pour assurer la fiabilité et la fluidité de l'application.</li>
+  </ul>
+</div>
   <div class="text-section">
     <h3>Compétences développées</h3>
     <ul>
-    <h5>Développer la présence en ligne de l’organisation</h5>
-    <li>Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</li>
-    <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
-    <h5>Mettre à disposition des utilisateurs un service informatique</h5>
-      <li>Déployer un service </li>
+    <h5>Gérer le patrimoine informatique</h5>
+    <li>Mettre en place et vérifier les niveaux d’habilitation associés à un service </li>
+    <h5>Travailler en mode projet</h5>
+      <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
+      <li>Planifier les activités </li>
+      <h5>Mettre à disposition des utilisateurs un service informatique</h5>
+      <li>Déployer un service</li>
       <h5>Organiser son développement professionnel</h5>
-      <li>Gérer son identité professionnelle </li>
+      <li>Développer son projet professionnel</li>
     </ul>
   </div>
   
@@ -274,22 +277,18 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="descriptif-card">
       <h3>Outils utilisés</h3>
       <ul>
-        <li>Visual Studio Code</li>
-        <li>GitHub pour l'hébergement</li>
-      </ul>
-      <div class="tools-icons">
-        <img src="../images/HTML5_logo.png" alt="logo html">
-        <img src="../images/CSS3_logo.png" alt="logo css">
-        
-      </div>
-      <div class="tools-icons">
-      <img src="<?php echo $root_path; ?>images/Laravel_Logo2.svg" alt="logo PHP">
-        <img src="<?php echo $root_path; ?>images/Bootstrap_logo.png" alt="logo PHP">
-        
-      </div>
+  <li>🧰 Environnement de développement : Visual Studio Code</li>
+  <li>🌐 Hébergement web : OVH</li>
+  <li>🧱 Framework back-end : Laravel (PHP)</li>
+  <li>🎨 Technologies front-end : HTML, CSS</li>
+  <li>💾 Base de données : MySQL</li>
+  <li>📂 Gestion de versions : GitHub</li>
+</ul>
+
+
+      
+
     </div>
-    
-  
   
     
     <div class="descriptif-card">
@@ -300,6 +299,12 @@ include_once "../header.php"; // Inclut le header depuis la racine
         <li>Documentation GitHub pour le déploiement</li>
       </ul>
     </div>
+
+
+
+   
+
+   
   </div>
       <div class="price_container ">
         <div class="box">

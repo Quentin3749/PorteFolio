@@ -201,6 +201,9 @@ include_once "../header.php"; // Inclut le header depuis la racine
 .text-section h3 {
     /* This maintains the original color (#007bff) for the headings */
 }
+h5 {
+  color: #f1c232; /* Couleur jaune foncé */
+}
 </style>
 
   <div class="hero_area">
@@ -240,32 +243,35 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <!-- Text Sections (without cards) -->
   <div class="text-section">
     <h3>Contexte</h3>
-    <p></p>
-    <p>Dans le cadre du BTS SIO option SLAM, le portfolio a été conçu comme un espace numérique permettant de retracer les différentes expériences professionnelles et les compétences techniques acquises. Il a pour fonction de rassembler les projets les plus significatifs menés en formation ou en entreprise.</p>
-    <p>Il sert également à mettre en lumière les compétences techniques à travers des projets concrets, en montrant comment les outils, langages et méthodes de développement sont appliqués en situation réelle. Une partie est consacrée à la veille technologique, afin de montrer la capacité à rester informé des dernières évolutions, en utilisant des sources fiables et des outils adaptés.</p>
+    
+    <p>Le projet Bienvenue Formation, réalisé dans le cadre du BTS SIO option SLAM, vise à gérer l'emploi du temps des professeurs et des élèves dans un établissement. La gestion des utilisateurs, des matières ainsi que des plannings est assurée par un administrateur. Le système est conçu pour être flexible et modulaire, permettant une gestion simple et intuitive des emplois du temps.</p>
+    
   </div>
   
   <div class="text-section">
     <h3>Liste des tâches</h3>
     <ul>
-      <li>🎨 Adaptation graphique d’un modèle existant pour correspondre à l’identité du portfolio.</li>
-      <li>🧩 Organisation des différentes sections : présentation, projets, entreprises, compétences, veille.</li>
-      <li>🗂️ Mise en place d’une structure de pages cohérente.</li>
-      <li>📂 Intégration des projets réels avec détails techniques, outils utilisés et objectifs.</li>
-      <li>📡 Mise en ligne du portfolio via une solution d’hébergement web.</li>
+      <li>🎨 Conception de l'interface utilisateur pour la gestion des emplois du temps des élèves et des professeurs, en veillant à ce qu’elle soit ergonomique et responsive.</li>
+      <li>🧩 Développement de la fonctionnalité de gestion des utilisateurs (administrateurs, professeurs, élèves), avec différents niveaux d'accès et d'habilitation.</li>
+      <li>📡 Mise en place de la base de données MySQL pour stocker les informations liées aux utilisateurs, aux cours, et aux emplois du temps.</li>
+      <li>🗂️ Création des plannings des cours et des matières, permettant aux administrateurs d'ajouter, de modifier et de supprimer des cours et de les affecter à des professeurs et des classes.</li>
+      <li>🔐 Mise en œuvre d'un système d'authentification sécurisé pour permettre l'accès à l'interface en fonction des rôles (administrateur, professeur, élève).</li>
+      <li>🔧 Réalisation de tests fonctionnels pour assurer que toutes les fonctionnalités du système sont correctes.</li>
     </ul>
   </div>
 
   <div class="text-section">
     <h3>Compétences développées</h3>
     <ul>
-    <h5>Développer la présence en ligne de l’organisation</h5>
-    <li>Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</li>
-    <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
-    <h5>Mettre à disposition des utilisateurs un service informatique</h5>
-      <li>Déployer un service </li>
+    <h5>Gérer le patrimoine informatique</h5>
+    <li>Mettre en place et vérifier les niveaux d’habilitation associés à un service </li>
+    <h5>Travailler en mode projet</h5>
+      <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
+      <li>Planifier les activités </li>
+      <h5>Mettre à disposition des utilisateurs un service informatique</h5>
+      <li>Déployer un service</li>
       <h5>Organiser son développement professionnel</h5>
-      <li>Gérer son identité professionnelle </li>
+      <li>Développer son projet professionnel</li>
     </ul>
   </div>
   
@@ -274,18 +280,13 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="descriptif-card">
       <h3>Outils utilisés</h3>
       <ul>
-        <li>Visual Studio Code</li>
-        <li>GitHub pour l'hébergement</li>
-      </ul>
-      <div class="tools-icons">
-        <img src="../images/HTML5_logo.png" alt="logo html">
-        <img src="../images/CSS3_logo.png" alt="logo css">
-        <img src="<?php echo $root_path; ?>images/logo_javascript.png" alt="logo js">
-      </div>
-      <div class="tools-icons">
-        <img src="<?php echo $root_path; ?>images/PHP-logo.png" alt="logo PHP">
-        <img src="<?php echo $root_path; ?>images/Bootstrap_logo.png" alt="logo PHP">
-      </div>
+  <li>🧰 Environnement de développement : Visual Studio Code</li>
+  <li>🌐 Hébergement web : OVH</li>
+  <li>🧱 Technologies back-end : PHP</li>
+  <li>🎨 Technologies front-end : HTML, CSS</li>
+  <li>💾 Base de données : MySQL</li>
+  <li>📂 Gestion de versions : GitHub</li>
+</ul>
     </div>
     
   

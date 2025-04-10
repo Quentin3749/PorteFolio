@@ -30,10 +30,6 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
  
-
-
-  
-
 </head>
 
 <body class="competence-page">
@@ -52,7 +48,9 @@ include_once "header.php";
         <h1 class="projet">
           Compétences
         </h1>
+        <p class="projet">Cliquez sur les boutons ci-dessous pour explorer les projets correspondant à chaque compétence.</p>
       </div>
+      
      
     </section>
     
@@ -63,12 +61,12 @@ include_once "header.php";
     <div class="theme-nav">
         
         <button onclick="showCarousel('tout')" class="active">tout</button>
-        <button onclick="showCarousel('patrimoine')">patrimoine informatique</button>
-        <button onclick="showCarousel('assistances')">demandes d'assistances et d'évolution</button>
-        <button onclick="showCarousel('présence')">présence en ligne</button>
-        <button onclick="showCarousel('projet')">mode projet</button>
+        <button onclick="showCarousel('patrimoine')">Patrimoine informatique</button>
+        <button onclick="showCarousel('assistances')">Demandes d'assistances et d'évolution</button>
+        <button onclick="showCarousel('présence')">Présence en ligne</button>
+        <button onclick="showCarousel('projet')">Mode projet</button>
         <button onclick="showCarousel('disposition')">Mise à disposition</button>
-        <button onclick="showCarousel('développement')">développement professionnel</button>
+        <button onclick="showCarousel('développement')">Développement professionnel</button>
 
     </div>
 
@@ -109,7 +107,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                portfolio
+                Portfolio
               </h4>
               
               <a href="projet/portfolio.php">
@@ -391,7 +389,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                portfolio
+                Portfolio
               </h4>
               
               <a href="projet/portfolio.php">
@@ -471,9 +469,7 @@ include_once "header.php";
               <h4>
                 Click and Eat
               </h4>
-              <p>
-              projet à mettre sur GIThub
-              </p>
+              
               <a href="projet/clickandeat.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -617,7 +613,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                portfolio
+                Portfolio
               </h4>
               
               <a href="projet/portfolio.php">
@@ -704,7 +700,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-              portfolio
+              Portfolio
               </h4>
              
               <a href="projet/portfolio.php">

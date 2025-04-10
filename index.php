@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-<?php 
 
+
+<?php 
 $root_path = "";
 include_once "header.php";
 ?>
@@ -152,7 +153,7 @@ include_once "header.php";
 
 
 
-</div>
+
 
 
 
@@ -161,5 +162,9 @@ include_once "header.php";
 include_once "footer.php";
 ?>
 
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>

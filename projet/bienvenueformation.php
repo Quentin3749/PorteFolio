@@ -244,7 +244,7 @@ h5 {
   <div class="text-section">
     <h3>Contexte</h3>
     
-    <p>Le projet Bienvenue Formation, réalisé dans le cadre du BTS SIO option SLAM, vise à gérer l'emploi du temps des professeurs et des élèves dans un établissement. La gestion des utilisateurs, des matières ainsi que des plannings est assurée par un administrateur. Le système est conçu pour être flexible et modulaire, permettant une gestion simple et intuitive des emplois du temps.</p>
+    <p>Le projet Bienvenue Formation, réalisé dans le cadre du BTS SIO option SLAM, vise à gérer l'emploi du temps des professeurs et des élèves dans un établissement. L’administrateur dispose d’une interface centralisée lui permettant de gérer les utilisateurs, les matières ainsi que la planification des cours. Le système est conçu pour être flexible et modulaire, permettant une gestion simple et intuitive des emplois du temps.</p>
     
   </div>
   

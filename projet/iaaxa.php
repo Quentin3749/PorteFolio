@@ -218,7 +218,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="container">
       <div class="heading_container heading_center">
         <h2 class="projet project">
-          Smart guide
+        SmartInAxa
         </h2>
       </div>
     </div>

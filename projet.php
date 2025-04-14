@@ -171,7 +171,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                IA axa
+                smartInAxa
               </h4>
               <a href="projet/iaaxa.php">
               en savoir plus

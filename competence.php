@@ -183,7 +183,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                IA axa
+              SmartInAxa
               </h4>
               <a href="projet/iaaxa.php">
               en savoir plus
@@ -269,7 +269,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                IA axa
+              SmartInAxa
               </h4>
               <a href="projet/iaaxa.php">
               en savoir plus

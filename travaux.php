@@ -170,16 +170,14 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/calculatrice.png" alt="">
+              <img src="images/chiffrehebdo.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
-                mission entreprise
+                chiffre hebdomadaire
               </h4>
-              <p>
-              à ajouter
-              </p>
-              <a href="https://quentin3749.github.io/calculatrice-immobiliere/">
+              
+              <a href="missions/chiffrehebdomadaire.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
@@ -190,17 +188,15 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/immobilier.png" alt="">
+              <img src="images/transmission.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
-              mission entreprise
+              transmission de compétence
               </h4>
-              <p>
-                à ajouter
-              </p>
-              <a href="">
-                en savoir plus
+              
+              <a href="missions/transmission.php">
+              en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
               </a>
@@ -210,16 +206,13 @@ include_once "header.php";
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
-              <img src="images/s6.png" alt="">
+              <img src="images/email.png" alt="">
             </div>
             <div class="detail-box boxi">
               <h4>
-                mission entreprise
+                Calculatrice email
               </h4>
-              <p>
-                à ajouter
-              </p>
-              <a href="">
+              <a href="missions/calculatriceemail.php">
               en savoir plus
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 

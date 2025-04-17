@@ -83,7 +83,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
         </div>
         <div class="container ">
             <div class="row carreau">
-                <img src="../images/netflixmaquette.png" alt="interface de la calculatrice d'email" >
+                <img src="../images/chiffre_hebdo.png" alt="interface de la calculatrice d'email" >
             </div>
         </div>
     </section>
@@ -101,24 +101,20 @@ include_once "../header.php"; // Inclut le header depuis la racine
 
                     <p><strong><h3 class="centered-text">Déroulement du projet:</h3></strong></p>
                     <p class="centered-text">
-                    Ce projet consistait à créer une calculatrice d'email fonctionnelle en utilisant Microsoft Excel et le langage VBA (Visual Basic for Applications). L'objectif était de simplifier le processus de calcul et de gestion des adresses e-mail pour des besoins spécifiques.
-                </p>
-
+                    La mission qui m’a été confiée consistait à mettre à jour mensuellement le nombre de sollicitations de chaque page composant le site intranet. Pour cela, un outil recensant ces données m’a permis d’accomplir ma mission.
+                </p><br>
                     <p><strong><h3 class="centered-text">Étapes réalisées :</h3></strong></p>
-                    <p class="centered-text">Conception de la logique de calcul des emails en VBA</p>
-                    <p class="centered-text">Développement de l'interface utilisateur sous Excel</p>
-                    <p class="centered-text">Implémentation des fonctionnalités de la calculatrice</p>
-                    <p class="centered-text">Tests et validation du bon fonctionnement</p>
-                    <p><strong><h3 class="centered-text">Langages utilisés : </h3></strong></p>
-                    <div class="image-container">
-                    <img src="<?php echo $root_path; ?>images/excel.png" alt="logo excel">
-                    <img src="../images/vba.png" alt="logo vba">
-                    </div>
+                    <p class="centered-text">Récupération des fichiers pour la mise à jour </p>
+                    <p class="centered-text">Utilisation de l'outils de calculs</p>
+                    <p class="centered-text">Mise à jour du top 10 des pages les plus consulté sur les pages d'accueils </p>
+                    <br>
+                    
+                    
                     <p><strong><h3 class="centered-text">Compétences développées :</h3></strong> </p>
-                    <p class="centered-text">Maîtrise du langage VBA pour Excel</p>
-                    <p class="centered-text">Conception et développement d'applications sous Excel</p>
-                    <p class="centered-text">Gestion de la logique de calcul</p>
-                    <p class="centered-text">Tests et débogage d'applications</p>
+                    <p class="centered-text">Maîtrise d'outil Excel</p>
+                    <p class="centered-text">Analyse et interprétation de données</p>
+                    <p class="centered-text">Rigueur dans le suivi de processus mensuels</p>
+                    
 
 
                     </div>
@@ -130,18 +126,15 @@ include_once "../header.php"; // Inclut le header depuis la racine
             <div class="box">
 
                 <div class="btn-box">
-                    <a href="#" target="_blank">
-                        Aperçu de l'application (si disponible)
+                <a href="../documents/Guide_Utilisateur_Statistiques.pdf" target="_blank">
+                
+                        Guide de procédure
                     </a>
                 </div>
             </div>
             <div class="box">
 
-                <div class="btn-box">
-                    <a href="#" target="_blank">
-                        Visualisation du code (si applicable)
-                    </a>
-                </div>
+                
             </div>
         </div>
         </div>

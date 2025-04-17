@@ -83,7 +83,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
         </div>
         <div class="container ">
             <div class="row carreau">
-                <img src="../images/netflixmaquette.png" alt="interface de la calculatrice d'email" >
+                <img src="../images/Calculatrice_email.PNG" alt="interface de la calculatrice d'email" >
             </div>
         </div>
     </section>
@@ -99,16 +99,15 @@ include_once "../header.php"; // Inclut le header depuis la racine
 
                     <div class="detail-box encadrement">
 
-                    <p><strong><h3 class="centered-text">Déroulement du projet:</h3></strong></p>
+                    <p><strong><h3 class="centered-text">Déroulement de la mission :</h3></strong></p>
                     <p class="centered-text">
-                    Ce projet consistait à créer une calculatrice d'email fonctionnelle en utilisant Microsoft Excel et le langage VBA (Visual Basic for Applications). L'objectif était de simplifier le processus de calcul et de gestion des adresses e-mail pour des besoins spécifiques.
+                    Dans le cadre de mes missions en entreprise, la tâche de créer un outil permettant de contrôler le taux de sollicitation des collaborateurs du siège par les collaborateurs d’agence m'a été confiée. L’objectif était d’enregistrer, via Excel et VBA, le nombre de mails envoyés et reçus par chaque adresse mail du siège, afin d’analyser la fréquence des demandes. Cet outil vise à aider les responsables à identifier les situations de surcharge et à mettre en place des solutions pour réduire ces sollicitations si nécessaire.
                 </p>
 
                     <p><strong><h3 class="centered-text">Étapes réalisées :</h3></strong></p>
-                    <p class="centered-text">Conception de la logique de calcul des emails en VBA</p>
-                    <p class="centered-text">Développement de l'interface utilisateur sous Excel</p>
-                    <p class="centered-text">Implémentation des fonctionnalités de la calculatrice</p>
-                    <p class="centered-text">Tests et validation du bon fonctionnement</p>
+                    <p class="centered-text">Conception et développement de l’interface utilisateur sous Excel</p>
+                    <p class="centered-text">Programmation en VBA pour l’automatisation de la récupération et du traitement des données (mails envoyés/reçus)</p>
+                    <p class="centered-text">Réalisation de tests fonctionnels et validation de l’outil</p>
                     <p><strong><h3 class="centered-text">Langages utilisés : </h3></strong></p>
                     <div class="image-container">
                     <img src="<?php echo $root_path; ?>images/excel.png" alt="logo excel">
@@ -117,7 +116,6 @@ include_once "../header.php"; // Inclut le header depuis la racine
                     <p><strong><h3 class="centered-text">Compétences développées :</h3></strong> </p>
                     <p class="centered-text">Maîtrise du langage VBA pour Excel</p>
                     <p class="centered-text">Conception et développement d'applications sous Excel</p>
-                    <p class="centered-text">Gestion de la logique de calcul</p>
                     <p class="centered-text">Tests et débogage d'applications</p>
 
 
@@ -126,24 +124,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
 
                     </div>
                     </div>
-        <div class="price_container ">
-            <div class="box">
-
-                <div class="btn-box">
-                    <a href="#" target="_blank">
-                        Aperçu de l'application (si disponible)
-                    </a>
-                </div>
-            </div>
-            <div class="box">
-
-                <div class="btn-box">
-                    <a href="#" target="_blank">
-                        Visualisation du code (si applicable)
-                    </a>
-                </div>
-            </div>
-        </div>
+        
         </div>
     </section>
 

@@ -57,7 +57,8 @@ include_once "header.php";
       </div>
     </div>
     <div class="container ">
-    <h2 class="projet"> projet école</h2>
+      <br>
+    <h2 class="projet" style="text-align: center;">Scolaire:</h2>
       <div class="row">
         
 
@@ -128,7 +129,7 @@ include_once "header.php";
     </div>
     <br>
     <div class="container ">
-    <h2 class="projet"> projet entreprise</h2>
+    <h2 class="projet" style="text-align: center;">Entreprise:</h2>
       <div class="row">
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">

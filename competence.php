@@ -310,14 +310,15 @@ include_once "header.php";
       <div class="row">
        
 
-
+      
         
       </div>
     </div>
     <br>
-    <div class="container ">
+    <div class="container " style="text-align: center;">
     
-      <div class="row">
+    <div class="row justify-content-center" style="text-align: center;">
+
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">
             <div class="img-box">
@@ -521,7 +522,8 @@ include_once "header.php";
     <br>
     <div class="container ">
     
-      <div class="row">
+    <div class="row justify-content-center" style="text-align: center;">
+
         
         <div class="col-md-6 col-lg-4">
           <div class="box maquette ">

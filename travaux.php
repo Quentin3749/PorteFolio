@@ -50,13 +50,16 @@ include_once "header.php";
 
   <section class="service_section layout_padding">
     <div class="container">
+    
       <div class="heading_container heading_center">
         <h1 class="projet">
           Travaux 
         </h1>
       </div>
     </div>
+    <br>
     <div class="container ">
+    <h2 class="projet" style="text-align: center;">Scolaire:</h2>
       
       <div class="row">
         <div class="col-md-6 col-lg-4 ">
@@ -161,8 +164,12 @@ include_once "header.php";
   </div>
 </div>
 
-    <div class="container ">
-    <h2 class="projet"> projet entreprise</h2>
+<div class="container ">
+  <br>
+  <br>
+  
+  <h2 class="projet" style="text-align: center;">Entreprise:</h2>
+
       <div class="row">
         
        

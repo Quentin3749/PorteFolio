@@ -58,7 +58,7 @@ include_once "header.php";
     </div>
   </div>
   <div class="container text-center">
-    <img src="images/BTS SIO-2025-E5-Tableau de synthese-2.png" alt="tableau" class="img-fluid mx-auto d-block">
+    <img src="images/BTS SIO-2025-E5-Tableau de synthese123.png" alt="tableau" class="img-fluid mx-auto d-block">
     
     <!-- Boutons ajoutés sous l'image -->
    
@@ -69,7 +69,7 @@ include_once "header.php";
   <div class="price_container tableau-button-container">
     <div class="box">
       <div class="btn-box">
-        <a href="images/BTS SIO-2025-E5-Tableau de synthese.pdf" download="BTS SIO-2025-E5-Tableau de synthese.pdf">
+        <a href="images/BTS SIO-2025-E5-Tableau de synthese5.pdf" download="BTS SIO-2025-E5-Tableau de synthese.pdf">
           télécharger le fichier pdf
         </a>
       </div>

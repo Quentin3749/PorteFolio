@@ -202,7 +202,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
     /* This maintains the original color (#007bff) for the headings */
 }
 
-h5 {
+.competence {
   color: #f1c232; /* Couleur jaune foncé */
 }
 </style>
@@ -260,14 +260,14 @@ h5 {
   <div class="text-section">
     <h3>Compétences développées</h3>
     <ul>
-    <h5>Gérer le patrimoine informatique</h5>
+    <h5 class="competence">Gérer le patrimoine informatique</h5>
     <li>Mettre en place et vérifier les niveaux d’habilitation associés à un service </li>
-    <h5>Travailler en mode projet</h5>
+    <h5 class="competence">Travailler en mode projet</h5>
       <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
       <li>Planifier les activités </li>
-      <h5>Mettre à disposition des utilisateurs un service informatique</h5>
+      <h5 class="competence">Mettre à disposition des utilisateurs un service informatique</h5>
       <li>Déployer un service</li>
-      <h5>Organiser son développement professionnel</h5>
+      <h5 class="competence">Organiser son développement professionnel</h5>
       <li>Développer son projet professionnel</li>
     </ul>
   </div>

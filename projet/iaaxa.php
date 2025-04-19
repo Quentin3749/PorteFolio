@@ -201,6 +201,9 @@ include_once "../header.php"; // Inclut le header depuis la racine
 .text-section h3 {
     /* This maintains the original color (#007bff) for the headings */
 }
+.competence {
+  color: #f1c232; /* Couleur jaune foncé */
+}
 </style>
 
   <div class="hero_area">
@@ -224,7 +227,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
     </div>
     <div class="container ">
       <div class="row carreau">
-              <img src="../images/netflixmaquette.png" alt="netflix" >
+              <img src="../images/smartInAxa.png" alt="netflix" >
       </div>
     </div>
   </section>
@@ -240,19 +243,31 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <!-- Text Sections (without cards) -->
   <div class="text-section">
     <h3>Contexte</h3>
-    <p>Projet de création d'une maquette web d'accueil pour "Bienvenue Formation"</p>
-    <p>Objectif: Reproduire une interface utilisateur professionnelle</p>
-    <p>Projet réalisé dans le cadre du BTS SIO</p>
+    <p>Dans le cadre du BTS SIO option SLAM, Click & Eat a été développé comme une application web complète destinée à la gestion multi-restaurants. Cette solution permet aux restaurateurs de créer et administrer leurs cartes, de gérer les commandes en ligne, ainsi que de proposer un système de réservation fluide et efficace pour leurs clients.</p>
   </div>
   
   <div class="text-section">
-    <h3>Liste des tâches</h3>
+  <h3>Liste des missions</h3>
+  <ul>
+    <li>🗃️ refonte.</li>
+    <li>🖥️ Développement d’une interface responsive, moderne et intuitive pour une expérience utilisateur optimale.</li>
+    <li>🔐 Mise en place d’un système d’authentification sécurisé avec gestion des rôles : client, restaurateur, administrateur.</li>
+    <li>🛠️ Création d’un espace administrateur permettant la gestion complète des établissements, des utilisateurs et des contenus.</li>
+    <li>⚙️  Réalisation de tests fonctionnels et optimisation des performances pour assurer la fiabilité et la fluidité de l'application.</li>
+  </ul>
+</div>
+  <div class="text-section">
+    <h3>Compétences développées</h3>
     <ul>
-      <li>Analyse de la maquette originale</li>
-      <li>Conception du squelette de la page en HTML</li>
-      <li>Stylisation avec CSS</li>
-      <li>Tests de compatibilité sur différents navigateurs</li>
-      <li>Mise en ligne du résultat final</li>
+    <h5 class="competence">Gérer le patrimoine informatique</h5>
+    <li>Mettre en place et vérifier les niveaux d’habilitation associés à un service </li>
+    <h5 class="competence">Travailler en mode projet</h5>
+      <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
+      <li>Planifier les activités </li>
+      <h5 class="competence">Mettre à disposition des utilisateurs un service informatique</h5>
+      <li>Déployer un service</li>
+      <h5 class="competence">Organiser son développement professionnel</h5>
+      <li>Développer son projet professionnel</li>
     </ul>
   </div>
   
@@ -261,26 +276,19 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="descriptif-card">
       <h3>Outils utilisés</h3>
       <ul>
-        <li>Éditeur de code VSCode</li>
-        <li>Git pour le versionnage</li>
-        <li>GitHub Pages pour l'hébergement</li>
-      </ul>
-      <div class="tools-icons">
-        <img src="../images/HTML5_logo.png" alt="logo html">
-        <img src="../images/CSS3_logo.png" alt="logo css">
-      </div>
+  <li>🧰 Environnement de développement : Visual Studio Code</li>
+  <li>🌐 Hébergement web : OVH</li>
+  <li>🧱 Framework back-end : Laravel (PHP)</li>
+  <li>🎨 Technologies front-end : HTML, CSS</li>
+  <li>💾 Base de données : MySQL</li>
+  <li>📂 Gestion de versions : GitHub</li>
+</ul>
+
+
+      
+
     </div>
-    
-    <div class="descriptif-card">
-      <h3>Compétences développées</h3>
-      <ul>
-        <li>Maîtrise des bases du HTML</li>
-        <li>Maîtrise du CSS</li>
-        <li>Responsive design</li>
-        <li>Versionnage avec Git</li>
-        <li>Déploiement sur GitHub Pages</li>
-      </ul>
-    </div>
+  
     
     <div class="descriptif-card">
       <h3>Documentation</h3>
@@ -290,12 +298,18 @@ include_once "../header.php"; // Inclut le header depuis la racine
         <li>Documentation GitHub pour le déploiement</li>
       </ul>
     </div>
+
+
+
+   
+
+   
   </div>
       <div class="price_container ">
         <div class="box">
           
           <div class="btn-box">
-            <a href="https://quentin3749.github.io/projet-netflix/" target="_blank">
+            <a href="https://portfolio.qetourmy.com/index.php" target="_blank">
               résultat final
             </a>
           </div>
@@ -303,7 +317,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
         <div class="box">
          
           <div class="btn-box">
-            <a href="https://github.com/Quentin3749/projet-netflix" target="_blank">
+            <a href="https://github.com/Quentin3749/PorteFolio" target="_blank">
               visuel du code
             </a>
           </div>
@@ -311,6 +325,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
       </div>
     </div>
   </section>
+
 
   
   

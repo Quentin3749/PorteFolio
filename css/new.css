@@ -745,6 +745,3 @@
 }
 
 /* Cible uniquement les titres <h5> de cette page */
-body.portfolio_page h5 {
-  color: #f1c232; /* Couleur jaune foncé */
-}

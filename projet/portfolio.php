@@ -198,8 +198,11 @@ include_once "../header.php"; // Inclut le header depuis la racine
 }
 
 /* Keep headings in their original color */
-.text-section h3 {
-    /* This maintains the original color (#007bff) for the headings */
+
+
+/* Cible uniquement les titres <h5> de cette page */
+.competence {
+  color: #f1c232; /* Couleur jaune foncé */
 }
 </style>
 
@@ -259,12 +262,12 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <div class="text-section">
     <h3>Compétences développées</h3>
     <ul>
-    <h5>Développer la présence en ligne de l’organisation</h5>
+    <h5 class="competence">Développer la présence en ligne de l’organisation</h5>
     <li>Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques</li>
     <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
-    <h5>Mettre à disposition des utilisateurs un service informatique</h5>
+    <h5 class="competence">Mettre à disposition des utilisateurs un service informatique</h5>
       <li>Déployer un service </li>
-      <h5>Organiser son développement professionnel</h5>
+      <h5 class="competence">Organiser son développement professionnel</h5>
       <li>Gérer son identité professionnelle </li>
     </ul>
   </div>
@@ -288,9 +291,8 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="descriptif-card">
       <h3>Documentation</h3>
       <ul>
-        <li>Documentation HTML/CSS sur MDN Web Docs</li>
-        <li>Guide de bonnes pratiques pour l'accessibilité web</li>
-        <li>Documentation GitHub pour le déploiement</li>
+        <li><a href="https://github.com/Quentin3749/PorteFolio">Documentation GitHub pour le déploiement</a></li>
+        <li><a href="https://portfolio.qetourmy.com/politique_de_confidentialit%C3%A9.php">Page de politique de confidentialité</a></li>
       </ul>
     </div>
   </div>
@@ -305,11 +307,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
         </div>
         <div class="box">
          
-          <div class="btn-box">
-            <a href="https://github.com/Quentin3749/PorteFolio" target="_blank">
-              visuel du code
-            </a>
-          </div>
+         
         </div>
       </div>
     </div>

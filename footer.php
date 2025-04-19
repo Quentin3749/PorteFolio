@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
       <div class="col-md-3">
         <div class="info_contact" style="margin-top: 1px; font-size: 14px; text-align: center;">
-          <h5>Informations</h5>
+          <h5 class=>Informations</h5>
           <div class="contact_link_box">
             <p style="margin-top: 10px; font-size: 14px; text-align: center;">
               Copyright © 2025 Quentin Etourmy

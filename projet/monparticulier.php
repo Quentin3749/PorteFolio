@@ -203,7 +203,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
 }
 
 /* Cible uniquement les titres <h5> de cette page */
- h5 {
+.competence {
   color: #f1c232; /* Couleur jaune foncé */
 }
 </style>
@@ -264,12 +264,12 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <div class="text-section">
     <h3>Compétences développées</h3>
     <ul>
-    <h5>Répondre aux incidents et aux demandes d’assistance et d’évolution</h5>
+    <h5 class="competence">Répondre aux incidents et aux demandes d’assistance et d’évolution</h5>
     <li>Collecter, suivre et orienter des demandes </li>
     <li>Traiter des demandes concernant les applications </li>
-    <h5>Développer la présence en ligne de l’organisation</h5>
+    <h5 class="competence">Développer la présence en ligne de l’organisation</h5>
       <li>Participer à l’évolution d’un site Web exploitant les données de l’organisation.</li>
-      <h5>Travailler en mode projet</h5>
+      <h5 class="competence">Travailler en mode projet</h5>
       <li>analyser les objectifs et les modalités d’organisation d’un projet</li>
       <li>Planifier les activités</li>
     </ul>
@@ -297,8 +297,9 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="descriptif-card">
     <h3>Documentation</h3>
 <ul>
-  <li>Guide de prise en main de SharePoint</li>
-  <li>Modèle de page fourni</li>
+  <li><a href="../documents/guide_prise_en_main_monpart.pdf" target="_blank">Guide de prise en main </a></li>
+  <li><a href="../documents/modèle_mon_part.pdf" target="_blank">Modèle de page</a></li>
+  
 
   
 </ul>
@@ -308,7 +309,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
         <div class="box">
           
           <div class="btn-box">
-            <a href="https://quentin3749.github.io/projet-netflix/" target="_blank">
+            <a href="../documents/Visuel_MonParticulier.pdf" target="_blank">
               Visuel
             </a>
           </div>

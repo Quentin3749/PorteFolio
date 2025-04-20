@@ -243,7 +243,8 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <!-- Text Sections (without cards) -->
   <div class="text-section">
     <h3>Contexte</h3>
-    <p>Dans le cadre du BTS SIO option SLAM, Click & Eat a été développé comme une application web complète destinée à la gestion multi-restaurants. Cette solution permet aux restaurateurs de créer et administrer leurs cartes, de gérer les commandes en ligne, ainsi que de proposer un système de réservation fluide et efficace pour leurs clients.</p>
+    <p>Ce projet avait pour objectif d'aider les collaborateurs d'agence à obtenir rapidement des informations importantes afin de répondre efficacement aux clients, tout en réduisant les sollicitations des collaborateurs du siège. Cette amélioration a été rendue possible grâce à l’intégration d’un outil d'intelligence artificielle, capable de fournir des réponses précises et rapides.</p>
+<p>Dans ce cadre, mes missions consistaient à travailler sur la structure des pages web intranet, afin de permettre à l'IA d'extraire les informations facilement. J'ai également participé à la collecte de questions types pour tester la fiabilité des réponses générées par l'outil, assurant ainsi son efficacité et sa pertinence.</p>
   </div>
   
   <div class="text-section">

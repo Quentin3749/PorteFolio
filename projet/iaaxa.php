@@ -249,25 +249,26 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <div class="text-section">
   <h3>Liste des missions</h3>
   <ul>
-    <li>🗃️ refonte.</li>
-    <li>🖥️ Développement d’une interface responsive, moderne et intuitive pour une expérience utilisateur optimale.</li>
-    <li>🔐 Mise en place d’un système d’authentification sécurisé avec gestion des rôles : client, restaurateur, administrateur.</li>
-    <li>🛠️ Création d’un espace administrateur permettant la gestion complète des établissements, des utilisateurs et des contenus.</li>
-    <li>⚙️  Réalisation de tests fonctionnels et optimisation des performances pour assurer la fiabilité et la fluidité de l'application.</li>
-  </ul>
+  <li>🗃️ Refonte de pages web pour structurer clairement l'information à destination de l'IA.</li>
+  <li>🧱 Organisation des contenus en sections logiques (titres, tableaux, listes) pour faciliter l’extraction des données.</li>
+  <li>🧪 Création d'une liste de prompts pour tester la capacité de l’IA à comprendre et extraire les bonnes informations.</li>
+  <li>📂 Publication directe des pages web retravaillées</li>
+  <li>📑 Respect des normes de structuration web et bonnes pratiques de lisibilité pour un traitement optimal par l’IA.</li>
+</ul>
 </div>
   <div class="text-section">
     <h3>Compétences développées</h3>
     <ul>
-    <h5 class="competence">Gérer le patrimoine informatique</h5>
-    <li>Mettre en place et vérifier les niveaux d’habilitation associés à un service </li>
-    <h5 class="competence">Travailler en mode projet</h5>
-      <li>Analyser les objectifs et les modalités d’organisation d’un projet</li>
-      <li>Planifier les activités </li>
-      <h5 class="competence">Mettre à disposition des utilisateurs un service informatique</h5>
-      <li>Déployer un service</li>
-      <h5 class="competence">Organiser son développement professionnel</h5>
-      <li>Développer son projet professionnel</li>
+    
+      <h5 class="competence">Gérer le
+patrimoine
+informatique
+</h5>
+      <li>Recenser et identifier les ressources numériques</li>
+      <li>Exploiter des référentiels, normes et standards adoptés par le prestataire informatique</li>
+      <li> Vérifier les conditions de la continuité d’un service informatique</li>
+      
+
     </ul>
   </div>
   
@@ -309,18 +310,14 @@ include_once "../header.php"; // Inclut le header depuis la racine
         <div class="box">
           
           <div class="btn-box">
-            <a href="https://portfolio.qetourmy.com/index.php" target="_blank">
-              résultat final
+            <a href="../documents/Visuel_Smartinaxa.pdf" target="_blank">
+              visuel de SmartInAxa
             </a>
           </div>
         </div>
         <div class="box">
          
-          <div class="btn-box">
-            <a href="https://github.com/Quentin3749/PorteFolio" target="_blank">
-              visuel du code
-            </a>
-          </div>
+          
         </div>
       </div>
     </div>

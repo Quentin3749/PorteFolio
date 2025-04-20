@@ -280,10 +280,11 @@ include_once "../header.php"; // Inclut le header depuis la racine
     <div class="descriptif-card">
       <h3>Outils utilisés</h3>
       <ul>
-        <li>Éditeur de code VSCode</li>
-        <li>Git pour le versionnage</li>
-        <li>GitHub Pages pour l'hébergement</li>
-      </ul>
+  <li>SharePoint – Éditeur de code intégré pour la modification des pages</li>
+  <li>GIMP – Retouches d’images et création de visuels</li>
+  <li>SharePoint – Hébergement et gestion du site interne</li>
+  <li>Language de programmation</li>
+</ul>
       <div class="tools-icons">
         <img src="../images/HTML5_logo.png" alt="logo html">
         <img src="../images/CSS3_logo.png" alt="logo css">
@@ -307,7 +308,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
         <div class="box">
           
           <div class="btn-box">
-            <a href="https://quentin3749.github.io/projet-netflix/" target="_blank">
+            <a href="../documents/Visuel_MonProfessionnel.pdf" target="_blank">
               visuel
             </a>
           </div>

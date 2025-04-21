@@ -136,7 +136,7 @@ include_once "header.php";
         </div>
         <div class="detail-box boxi">
           <h4>
-            calculatrice immobiliere
+            Calculatrice Immobiliere
           </h4>
           <a href="missions/calculatriceimmobiliere.php">
             en savoir plus
@@ -152,7 +152,7 @@ include_once "header.php";
         </div>
         <div class="detail-box boxi">
           <h4>
-            calculatrice pourboire
+            Calculatrice Pourboire
           </h4>
           <a href="missions/calculatricepourboire.php">
             en savoir plus
@@ -181,7 +181,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                chiffre hebdomadaire
+                Chiffre Hebdomadaire
               </h4>
               
               <a href="missions/chiffrehebdomadaire.php">
@@ -199,7 +199,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-              transmission de compétence
+              Transmission de Compétence
               </h4>
               
               <a href="missions/transmission.php">
@@ -217,7 +217,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                Calculatrice email
+                Calculatrice Email
               </h4>
               <a href="missions/calculatriceemail.php">
               en savoir plus

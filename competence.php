@@ -149,7 +149,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                Mon professionnel
+                Mon Professionnel
               </h4>
               <a href="projet/monprofessionnel.php">
               en savoir plus
@@ -166,7 +166,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                Mon particulier
+                Mon Particulier
               </h4>
               <a href="projet/monparticulier.php">
                 en savoir plus
@@ -326,7 +326,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                Mon professionnel
+                Mon Professionnel
               </h4>
               <a href="projet/monprofessionnel.php">
               en savoir plus
@@ -343,7 +343,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                Mon particulier
+                Mon Particulier
               </h4>
               <a href="projet/monparticulier.php">
                 en savoir plus
@@ -407,7 +407,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                Mon professionnel
+                Mon Professionnel
               </h4>
               <a href="projet/monprofessionnel.php">
               en savoir plus
@@ -424,7 +424,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                Mon particulier
+                Mon Particulier
               </h4>
               <a href="projet/monparticulier.php">
                 en savoir plus
@@ -506,7 +506,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                Mon professionnel
+                Mon Professionnel
               </h4>
               <a href="projet/monprofessionnel.php">
               en savoir plus
@@ -532,7 +532,7 @@ include_once "header.php";
             </div>
             <div class="detail-box boxi">
               <h4>
-                Mon particulier
+                Mon Particulier
               </h4>
               <a href="projet/monparticulier.php">
                 en savoir plus

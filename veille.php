@@ -29,9 +29,56 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+    .item-image.img-veille-ia1 {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      overflow: hidden;
+      background: #eaf6ff;
+    }
 
-
-  
+    .grid-item {
+      width: 100% !important;
+      max-width: 370px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .grid-item .item-image {
+      width: 100% !important;
+      height: 220px;
+      margin: 0 0 18px 0;
+      display: flex;
+      align-items: stretch;
+      justify-content: stretch;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #f4f4f4;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      padding: 0;
+    }
+    .grid-item .item-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 0;
+      margin: 0;
+    }
+    @media (max-width: 600px) {
+      .grid-item {
+        max-width: 100%;
+      }
+      .grid-item .item-image {
+        height: 140px;
+      }
+    }
+  </style>
 
 </head>
 
@@ -95,35 +142,35 @@ include_once "header.php";
             <div class="grid-container">
                 <div class="grid-item">
                     <div class="item-image">
-                        <img src="images/ia1.jpg" alt="Titre IA 1">
+                        <img src="images/cyber_Ant.png" alt="Cyber Ant" class="img-veille-ia1">
                     </div>
-                    <div class="item-title">Titre IA 1</div>
-                    <div class="item-desc">Courte description de l'article IA 1...</div>
-                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                    <div class="item-title">Chinese Weaver Ant hackers spied on telco network for 4 years</div>
+                    <div class="item-desc">Un groupe de pirates chinois, Weaver Ant, a infiltré pendant plus de 4 ans le réseau d'un opérateur télécom asiatique. Utilisant des routeurs compromis et des web shells avancés, ils ont créé un réseau secret pour contrôler les serveurs et exfiltrer discrètement des données sensibles. Malgré plusieurs tentatives d'éradication, ils sont restés indétectés grâce à des techniques sophistiquées de persistance et de dissimulation.</div>
+                    <div class="item-link"><a href="https://www.bleepingcomputer.com/news/security/chinese-weaver-ant-hackers-spied-on-telco-network-for-4-years/" target="_blank">Lire l'article</a></div>
                 </div>
                 <div class="grid-item">
                     <div class="item-image">
-                        <img src="images/ia2.jpg" alt="Titre IA 2">
+                        <img src="images/Malwares_dechaines.png" alt="Titre IA 2">
                     </div>
-                    <div class="item-title">Titre IA 2</div>
-                    <div class="item-desc">Courte description de l'article IA 2...</div>
-                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                    <div class="item-title">Malware Unleashed: Public Sector Hit in Sudden Surge, Reveals New Report</div>
+                    <div class="item-desc">Des cyberattaques de plus en plus sophistiquées visent le secteur public, la santé et la finance, avec une hausse marquée en 2024. Les pirates utilisent des techniques variées comme le mouvement latéral, le vol d’identifiants et l’accès à distance, rendant la détection difficile. Les autorités recommandent de renforcer l’authentification, de limiter les accès et de sensibiliser les utilisateurs pour mieux protéger les données personnelles face à ces menaces croissantes.</div>
+                    <div class="item-link"><a href="https://thehackernews.com/2023/08/malware-unleashed-public-sector-hit-in.html" target="_blank">Lire l'article</a></div>
                 </div>
                 <div class="grid-item">
                     <div class="item-image">
-                        <img src="images/ia3.jpg" alt="Titre IA 3">
+                        <img src="images/Logiciels_malveillants.png" alt="Titre IA 3">
                     </div>
-                    <div class="item-title">Titre IA 3</div>
-                    <div class="item-desc">Courte description de l'article IA 3...</div>
-                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                    <div class="item-title">Malware authors leverage more attack techniques that enable lateral movement</div>
+                    <div class="item-desc">Les pirates informatiques exploitent aujourd’hui des techniques avancées pour se déplacer latéralement dans les réseaux et déployer des malwares. En moyenne, chaque attaque combine plusieurs méthodes comme l’exécution de scripts, le vol d’identifiants et l’accès à distance. Cette sophistication croissante complique la détection et impose aux entreprises de renforcer la prévention et la surveillance interne.</div>
+                    <div class="item-link"><a href="https://www.csoonline.com/article/574589/malware-authors-leverage-more-attack-techniques-that-enable-lateral-movement.html#tk.rss_all" target="_blank">Lire l'article</a></div>
                 </div>
                 <div class="grid-item">
                     <div class="item-image">
-                        <img src="images/ia4.jpg" alt="Titre IA 4">
+                        <img src="images/cybersecurite_violation_de_donnees.png" alt="Titre IA 4">
                     </div>
-                    <div class="item-title">Titre IA 4</div>
-                    <div class="item-desc">Courte description de l'article IA 4...</div>
-                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                    <div class="item-title">Violations massives de données en 2024 : quels sont les principaux enseignements et mesures à prendre ?</div>
+                    <div class="item-desc">En 2024, la France a connu une vague de violations massives de données, touchant des millions de personnes. La CNIL souligne que ces incidents sont souvent dus à des failles récurrentes et à un manque de détection rapide. Elle recommande de renforcer l’authentification, de limiter les accès et de surveiller les flux pour mieux protéger les données personnelles.</div>
+                    <div class="item-link"><a href="https://www.cnil.fr/fr/violations-massives-de-donnees-en-2024-quels-sont-les-principaux-enseignements-mesures-a-prendre" target="_blank">Lire l'article</a></div>
                 </div>
             </div>
             <div class="theme-description">
@@ -137,9 +184,9 @@ include_once "header.php";
                     <div class="item-image">
                         <img src="images/robot1.jpg" alt="Titre Robot 1">
                     </div>
-                    <div class="item-title">Titre Robot 1</div>
+                    <div class="item-title"></div>
                     <div class="item-desc">Courte description de l'article Robot 1...</div>
-                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                    <div class="item-link"><a href="" target="_blank">Lire l'article</a></div>
                 </div>
                 <div class="grid-item">
                     <div class="item-image">

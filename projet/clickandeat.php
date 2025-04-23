@@ -318,7 +318,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
         <div class="box">
          
           <div class="btn-box">
-            <a href="https://github.com/Quentin3749/PorteFolio" target="_blank">
+            <a href="https://github.com/Quentin3749/clickandeat" target="_blank">
               visuel du code
             </a>
           </div>

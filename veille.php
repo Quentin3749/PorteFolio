@@ -86,55 +86,89 @@ include_once "header.php";
     </div>
 
     <div class="theme-nav">
-        <button onclick="showCarousel('ai')" class="active">L'intelligence Artificielle</button>
-        <button onclick="showCarousel('robotics')">Programmation Robotique</button>
-        <button onclick="showCarousel('cybersecurity')">Cybermenaces et solutions</button>
+        <button onclick="showCarousel('ai')" class="active">Les Malwares et les stratégies de prévention et de sécurisation.</button>
+        <button onclick="showCarousel('robotics')">La programmation de robots collaboratifs pour l'assistance aux tâches humaines</button>
     </div>
 
     <div class="carousel-container-wrapper">
         <div id="ai-carousel" class="carousel-container active">
-            <div class="description">L'intelligence artificielle évolue rapidement...</div>
             <div class="grid-container">
-                <div class="grid-item">IA 1</div>
-                <div class="grid-item">IA 2</div>
-                <div class="grid-item">IA 3</div>
-                <div class="grid-item">IA 4</div>
-                <div class="grid-item">IA 5</div>
-                <div class="grid-item">IA 6</div>
+                <div class="grid-item">
+                    <div class="item-image">
+                        <img src="images/ia1.jpg" alt="Titre IA 1">
+                    </div>
+                    <div class="item-title">Titre IA 1</div>
+                    <div class="item-desc">Courte description de l'article IA 1...</div>
+                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-image">
+                        <img src="images/ia2.jpg" alt="Titre IA 2">
+                    </div>
+                    <div class="item-title">Titre IA 2</div>
+                    <div class="item-desc">Courte description de l'article IA 2...</div>
+                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-image">
+                        <img src="images/ia3.jpg" alt="Titre IA 3">
+                    </div>
+                    <div class="item-title">Titre IA 3</div>
+                    <div class="item-desc">Courte description de l'article IA 3...</div>
+                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-image">
+                        <img src="images/ia4.jpg" alt="Titre IA 4">
+                    </div>
+                    <div class="item-title">Titre IA 4</div>
+                    <div class="item-desc">Courte description de l'article IA 4...</div>
+                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                </div>
             </div>
             <div class="theme-description">
-        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
-    </div>
+                <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
+            </div>
         </div>
 
         <div id="robotics-carousel" class="carousel-container">
-            <div class="description">La programmation robotique permet...</div>
             <div class="grid-container">
-                <div class="grid-item">Robot 1</div>
-                <div class="grid-item">Robot 2</div>
-                <div class="grid-item">Robot 3</div>
-                <div class="grid-item">Robot 4</div>
-                <div class="grid-item">Robot 5</div>
-                <div class="grid-item">Robot 6</div>
+                <div class="grid-item">
+                    <div class="item-image">
+                        <img src="images/robot1.jpg" alt="Titre Robot 1">
+                    </div>
+                    <div class="item-title">Titre Robot 1</div>
+                    <div class="item-desc">Courte description de l'article Robot 1...</div>
+                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-image">
+                        <img src="images/robot2.jpg" alt="Titre Robot 2">
+                    </div>
+                    <div class="item-title">Titre Robot 2</div>
+                    <div class="item-desc">Courte description de l'article Robot 2...</div>
+                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-image">
+                        <img src="images/robot3.jpg" alt="Titre Robot 3">
+                    </div>
+                    <div class="item-title">Titre Robot 3</div>
+                    <div class="item-desc">Courte description de l'article Robot 3...</div>
+                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                </div>
+                <div class="grid-item">
+                    <div class="item-image">
+                        <img src="images/robot4.jpg" alt="Titre Robot 4">
+                    </div>
+                    <div class="item-title">Titre Robot 4</div>
+                    <div class="item-desc">Courte description de l'article Robot 4...</div>
+                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                </div>
             </div>
             <div class="theme-description">
-        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
-    </div>
-        </div>
-
-        <div id="cybersecurity-carousel" class="carousel-container">
-            <div class="description">Les cybermenaces sont en constante évolution...</div>
-            <div class="grid-container">
-                <div class="grid-item">Cyber 1</div>
-                <div class="grid-item">Cyber 2</div>
-                <div class="grid-item">Cyber 3</div>
-                <div class="grid-item">Cyber 4</div>
-                <div class="grid-item">Cyber 5</div>
-                <div class="grid-item">Cyber 6</div>
+                <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
             </div>
-            <div class="theme-description">
-        <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
-    </div>
         </div>
     </div>
 </section>
@@ -147,7 +181,7 @@ include_once "header.php";
     <script>
         function showCarousel(theme) {
             // Cacher tous les carrousels
-            ['ai', 'robotics', 'cybersecurity'].forEach(t => {
+            ['ai', 'robotics'].forEach(t => {
                 document.getElementById(`${t}-carousel`).classList.remove('active');
                 document.querySelector(`button[onclick="showCarousel('${t}')"]`).classList.remove('active');
             });

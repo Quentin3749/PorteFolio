@@ -134,7 +134,7 @@ include_once "header.php";
 
     <div class="theme-nav">
         <button onclick="showCarousel('ai')" class="active">Les Malwares et les stratégies de prévention et de sécurisation.</button>
-        <button onclick="showCarousel('robotics')">La programmation de robots collaboratifs pour l'assistance aux tâches humaines</button>
+        <button onclick="showCarousel('robotics')">La programmation de robotique pour l'assistance humaines</button>
     </div>
 
     <div class="carousel-container-wrapper">

@@ -182,35 +182,35 @@ include_once "header.php";
             <div class="grid-container">
                 <div class="grid-item">
                     <div class="item-image">
-                        <img src="images/robot1.jpg" alt="Titre Robot 1">
+                        <img src="images/OpenAI.png" alt="Titre Robot 1">
                     </div>
-                    <div class="item-title"></div>
-                    <div class="item-desc">Courte description de l'article Robot 1...</div>
-                    <div class="item-link"><a href="" target="_blank">Lire l'article</a></div>
+                    <div class="item-title">Les robots humanoïdes d'OpenAI sont déjà en développement et pourraient transformer l'industrie mondiale</div>
+                    <div class="item-desc">OpenAI, en partenariat avec Figure AI, développe des robots humanoïdes dotés d’IA avancée capables d’accomplir des tâches complexes et d’interagir naturellement avec leur environnement. Ce projet vise à transformer l’industrie et soulève d’importants enjeux éthiques et sociaux.</div>
+                    <div class="item-link"><a href="https://www.drivingeco.com/fr/robots-humanoides-openai-ya-estan-desarrollo-podrian-transformar-industria-global/" target="_blank">Lire l'article</a></div>
                 </div>
                 <div class="grid-item">
                     <div class="item-image">
-                        <img src="images/robot2.jpg" alt="Titre Robot 2">
+                        <img src="images/Nvidia.png" alt="Titre Robot 2">
                     </div>
-                    <div class="item-title">Titre Robot 2</div>
-                    <div class="item-desc">Courte description de l'article Robot 2...</div>
-                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                    <div class="item-title">Nvidia will supercharge humanoid robot development with Isaac GR00T N1 foundation model for human-like reasoning</div>
+                    <div class="item-desc">Nvidia lance Isaac GR00T N1, un modèle d’IA qui permet aux robots humanoïdes d’apprendre, raisonner et s’adapter à des tâches variées. Cette innovation accélère le développement de robots utiles pour l’industrie et la vie quotidienne.</div>
+                    <div class="item-link"><a href="https://venturebeat.com/games/nvidia-will-supercharge-humanoid-robot-development-with-isaac-gr00t-n1-foundation-model-for-humanoid-reasoning/?ref=dailydev" target="_blank">Lire l'article</a></div>
                 </div>
                 <div class="grid-item">
                     <div class="item-image">
-                        <img src="images/robot3.jpg" alt="Titre Robot 3">
+                        <img src="images/Tesla-optimus.png" alt="Titre Robot 3">
                     </div>
-                    <div class="item-title">Titre Robot 3</div>
-                    <div class="item-desc">Courte description de l'article Robot 3...</div>
-                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                    <div class="item-title">Optimus : qu'est-ce que c'est ?</div>
+                    <div class="item-desc">Optimus est un robot humanoïde développé par Tesla pour automatiser les tâches répétitives et dangereuses, en usine ou à domicile. Doté d’IA et de capteurs avancés, il vise à assister les humains tout en soulevant des enjeux éthiques et sociaux sur l’emploi et la sécurité.</div>
+                    <div class="item-link"><a href="https://www.futura-sciences.com/tech/definitions/robotique-optimus-21522/#enjeux-ethiques-et-sociaux" target="_blank">Lire l'article</a></div>
                 </div>
                 <div class="grid-item">
                     <div class="item-image">
-                        <img src="images/robot4.jpg" alt="Titre Robot 4">
+                        <img src="images/code_as_policy.png" alt="Titre Robot 4">
                     </div>
-                    <div class="item-title">Titre Robot 4</div>
-                    <div class="item-desc">Courte description de l'article Robot 4...</div>
-                    <div class="item-link"><a href="#" target="_blank">Lire l'article</a></div>
+                    <div class="item-title">Google's Code-as-Policies Lets Robots Write Their Own Code</div>
+                    <div class="item-desc">Google a développé Code-as-Policies, une méthode où un modèle de langage génère directement du code pour contrôler des robots selon des instructions en langage naturel. Cette approche rend les robots plus polyvalents, mais pose aussi des défis de sécurité et de fiabilité.</div>
+                    <div class="item-link"><a href="https://www.infoq.com/news/2022/11/google-robotics-code-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global&ref=dailydev" target="_blank">Lire l'article</a></div>
                 </div>
             </div>
             <div class="theme-description">

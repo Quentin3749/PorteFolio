@@ -142,7 +142,7 @@ include_once "header.php";
             <div class="grid-container">
                 <div class="grid-item">
                     <div class="item-image">
-                        <img src="images/cyber_Ant.png" alt="Cyber Ant" class="img-veille-ia1">
+                        <img src="images/fourmi.jpg" alt="Cyber Ant" class="img-veille-ia1">
                     </div>
                     <div class="item-title">Chinese Weaver Ant hackers spied on telco network for 4 years</div>
                     <div class="item-desc">Un groupe de pirates chinois, Weaver Ant, a infiltré pendant plus de 4 ans le réseau d'un opérateur télécom asiatique. Utilisant des routeurs compromis et des web shells avancés, ils ont créé un réseau secret pour contrôler les serveurs et exfiltrer discrètement des données sensibles. Malgré plusieurs tentatives d'éradication, ils sont restés indétectés grâce à des techniques sophistiquées de persistance et de dissimulation.</div>

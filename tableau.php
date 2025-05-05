@@ -69,7 +69,7 @@ include_once "header.php";
   <div class="price_container tableau-button-container">
     <div class="box">
       <div class="btn-box">
-        <a href="images/BTS SIO-2025-E5-Tableau de synthese5.pdf" download="BTS SIO-2025-E5-Tableau de synthese.pdf">
+        <a href="images/BTS SIO-2025-E5-Tableau de synthese19.pdf" download="BTS SIO-2025-E5-Tableau de synthese.pdf">
           télécharger le fichier pdf
         </a>
       </div>

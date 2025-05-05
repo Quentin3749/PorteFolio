@@ -244,7 +244,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <!-- Text Sections (without cards) -->
   <div class="text-section">
     <h3>Contexte</h3>
-    <p>Dans le cadre du BTS SIO option SLAM, Click & Eat a été développé comme une application web complète destinée à la gestion multi-restaurants. Cette solution permet aux restaurateurs de créer et administrer leurs cartes, de gérer les commandes en ligne, ainsi que de proposer un système de réservation fluide et efficace pour leurs clients.</p>
+    <p style="text-align: justify;">Dans le cadre du BTS SIO option SLAM, Click & Eat a été développé comme une application web complète destinée à la gestion multi-restaurants. Cette solution permet aux restaurateurs de créer et administrer leurs cartes, de gérer les commandes en ligne, ainsi que de proposer un système de réservation fluide et efficace pour leurs clients.</p>
   </div>
   
   <div class="text-section">
@@ -310,7 +310,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
         <div class="box">
           
           <div class="btn-box">
-            <a href="https://portfolio.qetourmy.com/index.php" target="_blank">
+            <a href="https://clickandeat.qetourmy.com/" target="_blank">
               résultat final
             </a>
           </div>

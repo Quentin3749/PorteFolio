@@ -243,8 +243,8 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <!-- Text Sections (without cards) -->
   <div class="text-section">
     <h3>Contexte</h3>
-    <p>Ce projet avait pour objectif d'aider les collaborateurs d'agence à obtenir rapidement des informations importantes afin de répondre efficacement aux clients, tout en réduisant les sollicitations des collaborateurs du siège. Cette amélioration a été rendue possible grâce à l’intégration d’un outil d'intelligence artificielle, capable de fournir des réponses précises et rapides.</p>
-<p>Dans ce cadre, mes missions consistaient à travailler sur la structure des pages web intranet, afin de permettre à l'IA d'extraire les informations facilement. J'ai également participé à la collecte de questions types pour tester la fiabilité des réponses générées par l'outil, assurant ainsi son efficacité et sa pertinence.</p>
+    <p style="text-align: justify;">Ce projet avait pour objectif d'aider les collaborateurs d'agence à obtenir rapidement des informations importantes afin de répondre efficacement aux clients, tout en réduisant les sollicitations des collaborateurs du siège. Cette amélioration a été rendue possible grâce à l’intégration d’un outil d'intelligence artificielle, capable de fournir des réponses précises et rapides.</p>
+<p style="text-align: justify;">Dans ce cadre, mes missions consistaient à travailler sur la structure des pages web intranet, afin de permettre à l'IA d'extraire les informations facilement. J'ai également participé à la collecte de questions types pour tester la fiabilité des réponses générées par l'outil, assurant ainsi son efficacité et sa pertinence.</p>
   </div>
   
   <div class="text-section">

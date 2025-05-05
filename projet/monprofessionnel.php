@@ -245,9 +245,9 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <!-- Text Sections (without cards) -->
   <div class="text-section">
     <h3>Contexte</h3>
-    <p>Ce projet avait pour objectif de refondre les pages d’une partie du site web interne destiné a des collaborateurs d'agence, afin de le rendre plus intuitif, plus agréable visuellement et plus facile à utiliser au quotidien.</p>
-    <p>Afin de permettre aux utilisateurs des pages de nous faire part de leurs suggestions et de signaler des modifications à apporter aux informations importantes, nous avons mis en place une adresse mail dédiée pour centraliser et traiter toutes les demandes.</p>
-    <p>Cette démarche a permis de moderniser l’interface et de mieux répondre aux attentes des utilisateurs.</p>
+    <p style="text-align: justify;">Ce projet avait pour objectif de refondre les pages d’une partie du site web interne destiné a des collaborateurs d'agence, afin de le rendre plus intuitif, plus agréable visuellement et plus facile à utiliser au quotidien.</p>
+    <p style="text-align: justify;">Afin de permettre aux utilisateurs des pages de nous faire part de leurs suggestions et de signaler des modifications à apporter aux informations importantes, nous avons mis en place une adresse mail dédiée pour centraliser et traiter toutes les demandes.</p>
+    <p style="text-align: justify;">Cette démarche a permis de moderniser l’interface et de mieux répondre aux attentes des utilisateurs.</p>
   </div>
   
   <div class="text-section">

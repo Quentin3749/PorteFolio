@@ -243,9 +243,8 @@ include_once "../header.php"; // Inclut le header depuis la racine
   <!-- Text Sections (without cards) -->
   <div class="text-section">
     <h3>Contexte</h3>
-    <p></p>
-    <p>Dans le cadre du BTS SIO option SLAM, le portfolio a été conçu comme un espace numérique permettant de retracer les différentes expériences professionnelles et les compétences techniques acquises. Il a pour fonction de rassembler les projets les plus significatifs menés en formation ou en entreprise.</p>
-    <p>Il sert également à mettre en lumière les compétences techniques à travers des projets concrets, en montrant comment les outils, langages et méthodes de développement sont appliqués en situation réelle. Une partie est consacrée à la veille technologique, afin de montrer la capacité à rester informé des dernières évolutions, en utilisant des sources fiables et des outils adaptés.</p>
+    <p style="text-align: justify;">Dans le cadre du BTS SIO option SLAM, le portfolio a été conçu comme un espace numérique permettant de retracer les différentes expériences professionnelles et les compétences techniques acquises. Il a pour fonction de rassembler les projets les plus significatifs menés en formation ou en entreprise.</p>
+    <p style="text-align: justify;">Il sert également à mettre en lumière les compétences techniques à travers des projets concrets, en montrant comment les outils, langages et méthodes de développement sont appliqués en situation réelle. Une partie est consacrée à la veille technologique, afin de montrer la capacité à rester informé des dernières évolutions, en utilisant des sources fiables et des outils adaptés.</p>
   </div>
   
   <div class="text-section">
@@ -296,7 +295,7 @@ include_once "../header.php"; // Inclut le header depuis la racine
       </ul>
     </div>
   </div>
-      <div class="price_container ">
+  <div class="price_container ">
         <div class="box">
           
           <div class="btn-box">
@@ -307,7 +306,11 @@ include_once "../header.php"; // Inclut le header depuis la racine
         </div>
         <div class="box">
          
-         
+          <div class="btn-box">
+            <a href="https://github.com/Quentin3749/PorteFolio" target="_blank">
+              visuel du code
+            </a>
+          </div>
         </div>
       </div>
     </div>

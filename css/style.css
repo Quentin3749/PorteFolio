@@ -1159,8 +1159,22 @@ a:focus {
   max-width: 680px;
   margin: 18px auto 0 auto;
   font-size: 0.98rem;
-  padding: 36px 18px 36px 18px;
+  padding: 30px 40px;
+  min-height: 300px;
   background: #f8faff;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+section.service_section .theme-description {
+  width: 90vw;
+  max-width: 880px;
+  min-height: 200px;
+  padding: 20px 30px;
+  margin: 30px auto;
+  line-height: 1.4;
+  column-gap: 60px;
+  color: #000000;
+  text-align: justify;
+  word-spacing: 0.5px;
 }

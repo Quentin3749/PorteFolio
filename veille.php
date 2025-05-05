@@ -78,6 +78,7 @@
         height: 140px;
       }
     }
+
   </style>
 
 </head>
@@ -129,7 +130,7 @@ include_once "header.php";
 
     <section class="service_section layout_padding technology-watch-carousel">
     <div class="heading_container heading_center">
-        <h1 class="projet">Mes sujets de veille</h1>
+        <h1 class="projet">Mes sujets de veilles</h1>
     </div>
 
     <div class="theme-nav">
@@ -173,8 +174,11 @@ include_once "header.php";
                     <div class="item-link"><a href="https://www.cnil.fr/fr/violations-massives-de-donnees-en-2024-quels-sont-les-principaux-enseignements-mesures-a-prendre" target="_blank">Lire l'article</a></div>
                 </div>
             </div>
+            <div class="heading_container heading_center">
+        <h3 class="projet">Conclusion</h3>
+    </div>
             <div class="theme-description">
-                <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
+                <p style="text-align: justify;">La lecture de ces articles révèle des défis importants pour la sécurité numérique des entreprises. On constate que les intrusions sont de plus en plus tenaces et complexes, à l'image d'opérations d'espionnage s'étendant sur de longues périodes, ciblant des infrastructures essentielles comme les réseaux de télécommunications, ou de la pression accrue sur des secteurs comme le public. Les attaques deviennent plus sophistiquées, avec la généralisation de méthodes pour se propager discrètement au sein des réseaux, une technique clé désormais courante. Les pertes de données importantes, touchant des millions d'individus, mettent en lumière des failles persistantes, souvent liées à des négligences fondamentales dans les mesures de protection. Face à cette réalité, une stratégie de sécurité globale, déployant plusieurs niveaux de défense et assurant une surveillance continue de l'évolution des menaces et de leurs tactiques, incluant l'exploitation d'outils pourtant légitimes, est indispensable.</p>
             </div>
         </div>
 
@@ -213,8 +217,11 @@ include_once "header.php";
                     <div class="item-link"><a href="https://www.infoq.com/news/2022/11/google-robotics-code-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global&ref=dailydev" target="_blank">Lire l'article</a></div>
                 </div>
             </div>
-            <div class="theme-description">
-                <p>L'IA permet d'améliorer l'automatisation, l'analyse de données et bien plus encore. Elle est utilisée dans divers secteurs comme la santé, le commerce et la finance.</p>
+            <div class="heading_container heading_center">
+        <h3 class="projet">Conclusion</h3>
+    </div>
+            <div class="theme-description" >
+                <p style="text-align: justify;">La robotique humanoïde connaît une période d'intense activité, marquée par des avancées notables dans l'intelligence artificielle, la conception et l'autonomie des robots. Des initiatives majeures d'acteurs clés tels qu'OpenAI, Nvidia, Tesla et Google ouvrent des perspectives de transformation dans de nombreux domaines, allant de l'industrie aux services. Ces progrès, tout en promettant d'améliorer l'efficacité et de créer de nouvelles possibilités, soulèvent des questions cruciales d'ordre éthique, social et pratique qui devront être abordées à mesure que cette technologie continue d'évoluer et de s'intégrer dans nos vies.</p>
             </div>
         </div>
     </div>
